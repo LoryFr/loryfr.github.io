@@ -1,0 +1,17 @@
+:root {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+    
+}
