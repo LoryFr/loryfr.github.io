@@ -15,6 +15,11 @@ body {
   padding: 0;
 }
 
+.navbar {
+  z-index: 1;
+  overflow: hidden !important;
+}
+
 body::-webkit-scrollbar {
   width: 0.25rem;
 }
@@ -126,7 +131,8 @@ main {
   transform: rotate(-360deg);
 }
 
-/* Small screens */
+/* Mobile Adaptive */
+
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -151,7 +157,7 @@ main {
   }
 }
 
-/* Large screens */
+/* Desktop Adaptive */
 
 @media only screen and (min-width: 600px) {
   .navbar {
@@ -219,7 +225,7 @@ main {
 /* Masonry Grid */
 
 .container {
-  position: absolute;
+  position: relative;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
