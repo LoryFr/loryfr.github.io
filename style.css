@@ -128,6 +128,15 @@ main {
 }
 
 .navbar:hover .logo svg {
+  transform: rotate(360deg);
+}
+
+.navicons {
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+
+.navbar:hover .navicons {
   transform: rotate(-360deg);
 }
 
