@@ -10,7 +10,7 @@
 
 body {
   color: black;
-  background-color: #242423;
+  background-color: #141418;
   margin: 0;
   padding: 0;
 }
@@ -109,7 +109,7 @@ main {
   text-align: center;
   color: var(--text-secondary);
   background: var(--bg-secondary);
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 0.3ch;
   width: 100%;
 }
@@ -234,7 +234,7 @@ main {
 }
 
 .container .box {
-  background: #333;
+  background: #23232e;
   margin: 0;
   padding: 1vh;
   display: grid;
@@ -243,7 +243,7 @@ main {
 }
 
 .container .box:hover {
-  background: #f58216;
+  background: #6649b8;
 }
 
 .container .box img {
