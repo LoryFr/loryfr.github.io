@@ -9,8 +9,8 @@
 }
 
 body {
-  color: black;
-  background-color: #141418;
+  color: white;
+  background-color: var(--bg-secondary);
   margin: 0;
   padding: 0;
 }
@@ -202,10 +202,10 @@ main {
 }
 
 .light {
-  --text-primary: #242423;
-  --text-secondary: #333533;
-  --bg-primary: #ffffff;
-  --bg-secondary: #fdf0f0;
+  --text-primary: #F5C6EC;
+  --text-secondary: #FFEAEA;
+  --bg-primary: #263159;
+  --bg-secondary: #251749;
 }
 
 .solar {
@@ -243,12 +243,12 @@ main {
 }
 
 .container .box {
-  background: #23232e;
+  background: var(--bg-primary);
   margin: 0;
   padding: 1vh;
   display: grid;
   place-items: center;
-  transition: 0.5s;
+  transition: var(--transition-speed);
 }
 
 .container .box:hover {
