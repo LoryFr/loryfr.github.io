@@ -204,17 +204,17 @@ main {
 }
 
 .light {
-  --text-primary: #F5C6EC;
-  --text-secondary: #FFEAEA;
-  --bg-primary: #263159;
-  --bg-secondary: #251749;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ff7eee;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
 }
 
 .solar {
-  --text-primary: #576e75;
-  --text-secondary: #35535c;
-  --bg-primary: #fdf6e3;
-  --bg-secondary: #f5e5b8;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ff7eee;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
 }
 
 .theme-icon {
@@ -270,7 +270,7 @@ main {
 
 .container .box:nth-child(2) {
   grid-column: span 1;
-  grid-row: span 1;
+  grid-row: span 2;
 }
 
 .container .box:nth-child(3) {
@@ -279,7 +279,7 @@ main {
 }
 
 .container .box:nth-child(4) {
-  grid-column: span 1;
+  grid-column: span 3;
   grid-row: span 1;
 }
 
@@ -289,7 +289,7 @@ main {
 }
 
 .container .box:nth-child(6) {
-  grid-column: span 3;
+  grid-column: span 1;
   grid-row: span 1;
 }
 
