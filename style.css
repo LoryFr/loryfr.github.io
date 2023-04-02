@@ -168,6 +168,14 @@ main {
   }
 }
 
+/* Ultra Mobile Adaptive */
+
+@media only screen and (max-width: 400px) {
+  .nav-item:last-child {
+    display: none;
+  }
+}
+
 /* Desktop Adaptive */
 
 @media only screen and (min-width: 600px) {
