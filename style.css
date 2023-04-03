@@ -297,13 +297,13 @@ main {
 }
 
 .container .box:nth-child(6) {
-  grid-column: span 1;
+  grid-column: span 2;
   grid-row: span 1;
 }
 
 .container .box:nth-child(7) {
   grid-column: span 1;
-  grid-row: span 1;
+  grid-row: span 2;
 }
 
 .container .box:nth-child(8) {
@@ -312,7 +312,7 @@ main {
 }
 
 .container .box:nth-child(9) {
-  grid-column: span 1;
+  grid-column: span 3;
   grid-row: span 1;
 }
 
