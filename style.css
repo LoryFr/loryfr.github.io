@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-  z-index: 1;
+  z-index: 99;
   overflow: hidden !important;
 }
 
@@ -168,7 +168,7 @@ main {
   }
 }
 
-/* Ultra Mobile Adaptive */
+/* Ultra Vertical Mobile Adaptive */
 
 @media only screen and (max-width: 400px) {
   .nav-item:last-child {
@@ -321,6 +321,8 @@ main {
   grid-row: span 1;
 }
 
+/* Mobile Adaptive */
+
 @media screen and (max-width: 768px) {
   .container .box:nth-child(1) {
       grid-column: span 1;
@@ -409,6 +411,8 @@ main {
     grid-row: span 1;
   }
 }
+
+/* Vertical Adaptive Grid */
 
 @media (orientation: portrait) {
     .container .box:nth-child(1) {
