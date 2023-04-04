@@ -247,8 +247,9 @@ main {
 .container {
   position: relative;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  /*grid-template-columns: repeat(5, 15vh);*/ /*https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/*/
+  column-count: 5;
+  grid-template-rows: 1fr auto;
   grid-auto-flow: dense;
   grid-gap: 1vh;
 }
@@ -260,6 +261,7 @@ main {
   display: grid;
   place-items: center;
   transition: var(--transition-speed);
+  break-inside: avoid;
 }
 
 .container .box:hover {
@@ -268,58 +270,61 @@ main {
 
 .container .box img {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   object-fit: contain;
+  display: block;
+  grid-row: 1 / -1;
+  grid-column: 1;
 }
 
 .container .box:nth-child(1) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 3;
+  grid-row: 1;
 }
 
 .container .box:nth-child(2) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 3;
+  grid-row: 1;
 }
 
 .container .box:nth-child(3) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .container .box:nth-child(4) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .container .box:nth-child(5) {
-  grid-column: span 2;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .container .box:nth-child(6) {
-  grid-column: span 2;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .container .box:nth-child(7) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .container .box:nth-child(8) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .container .box:nth-child(9) {
-  grid-column: span 1;
-  grid-row: span 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .container .box:nth-child(10) {
-  grid-column: span 3;
-  grid-row: span 1;
+  grid-column: 5;
+  grid-row: 1;
 }
 
 /* Mobile Adaptive */
