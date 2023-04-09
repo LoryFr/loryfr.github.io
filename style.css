@@ -243,3 +243,43 @@ main {
 }
 
 /* Masonry Grid */
+
+.container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: var(--bg-primary);
+  transition: var(--transition-speed);
+}
+
+.container .box:hover {
+  background: #6649b8;
+}
+
+.container .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+}
+
+.container .wide {
+  grid-column: span 2;
+}
+
+.container .tall {
+  grid-row: span 2;
+}
+
+.container .big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
