@@ -244,13 +244,23 @@ main {
 
 /* Masonry Grid */
 
-.container .box {
-  display: flex;
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 1rem;
   justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  align-content: center;
+  justify-items: stretch;
+  align-items: start;
+}
+
+.container .box {
   background: var(--bg-primary);
+  padding: 1rem;
   transition: var(--transition-speed);
+  justify-self: stretch;
+  align-self: start;
 }
 
 .container .box:hover {
@@ -259,27 +269,11 @@ main {
 
 .container .box img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
-.container {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: 200px;
-  grid-auto-flow: dense;
+.container .box:nth-child(1) {
+  grid-column: span 3;
+  grid-row: auto;
 }
 
-.container .wide {
-  grid-column: span 2;
-}
-
-.container .tall {
-  grid-row: span 2;
-}
-
-.container .big {
-  grid-column: span 2;
-  grid-row: span 2;
-}
+/* Masonry Grid Responsive */
