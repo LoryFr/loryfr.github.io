@@ -1,3 +1,3 @@
 # Lorenzo-Fiori-Website
 
-Responsive Grid and Navigation Bar
+Mobile First Portfolio with Responsive Grid and Navigation Bar
