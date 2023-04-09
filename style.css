@@ -243,36 +243,3 @@ main {
 }
 
 /* Masonry Grid */
-
-.container img {
-  max-width: 100%;
-  vertical-align: middle;
-  height: auto;
-}
-
-.container {
-  column-count: 3;
-}
-
-.container .box {
-  margin-bottom: 1rem;
-  padding: 1vh;
-  background: var(--bg-primary);
-  transition: var(--transition-speed);
-}
-
-.container .box:hover {
-  background: #6649b8;
-}
-
-@media (max-width: 1080px) {
-  .container {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    column-count: 1;
-  }
-}
