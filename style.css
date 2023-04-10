@@ -40,7 +40,7 @@ main {
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
-  transition: width 600ms ease;
+  transition: width var(--transition-speed) ease;
   overflow: scroll;
 }
 
@@ -68,10 +68,8 @@ main {
   height: 5rem;
   color: var(--text-primary);
   text-decoration: none;
-  filter: grayscale(100%) opacity(0.7);
+  filter: grayscale(100%) opacity(1);
   transition: var(--transition-speed);
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -213,17 +211,17 @@ main {
 }
 
 .light {
-  --text-primary: #b6b6b6;
+  --text-primary: #554d56;
   --text-secondary: #ff7eee;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --bg-primary: #fbfbfb;
+  --bg-secondary: #f7f7f7;
 }
 
 .solar {
   --text-primary: #b6b6b6;
   --text-secondary: #ff7eee;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --bg-primary: #979197;
+  --bg-secondary: #554d56;
 }
 
 .theme-icon {
@@ -246,9 +244,9 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  gap: 1rem;
+  gap: 1vh;
   justify-content: center;
   align-content: center;
   justify-items: stretch;
@@ -257,7 +255,7 @@ main {
 
 .container .box {
   background: var(--bg-primary);
-  padding: 1rem;
+  padding: 1vh;
   transition: var(--transition-speed);
   justify-self: stretch;
   align-self: start;
@@ -269,11 +267,6 @@ main {
 
 .container .box img {
   width: 100%;
-}
-
-.container .box:nth-child(1) {
-  grid-column: span 3;
-  grid-row: auto;
 }
 
 /* Masonry Grid Responsive */
