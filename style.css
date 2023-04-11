@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
 
 main {
   margin-left: 5rem;
-  padding: 2vh;
+  padding: 1vh;
 }
 
 .navbar {
@@ -252,34 +252,54 @@ main {
   display: block;
 }
 
-/* Masonry Grid */
+/* Masonry Grid for Stills (JS)*/
+
+.stills-main {
+  box-sizing: border-box;
+  position: fixed;
+  height: 100%;
+  overflow: scroll;
+}
 
 .container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: repeat(auto-fill, 1fr);
+  position: relative;
+  display: flex;
   gap: 1vh;
-  justify-content: center;
-  align-content: center;
-  justify-items: stretch;
-  align-items: start;
 }
 
-.container .box {
-  background: var(--bg-primary);
-  padding: 1vh;
-  transition: var(--transition-speed);
-  justify-self: stretch;
-  align-self: start;
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
 }
 
-.container .box:hover {
-  background: var(--text-secondary);
+.post {
+  position: relative;
+  overflow: hidden;
+  /* background: #131313; */
 }
 
-.container .box img {
+img {
   width: 100%;
-  object-fit: cover;
 }
 
-/* Masonry Grid Responsive */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-primary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition-speed);
+}
+
+.post:hover .overlay {
+  opacity: 0.95;
+  cursor: pointer;
+}
