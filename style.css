@@ -290,7 +290,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--bg-primary);
+  background: var(--text-secondary);
 
   display: flex;
   align-items: center;
@@ -300,6 +300,6 @@ img {
 }
 
 .post:hover .overlay {
-  opacity: 0.95;
+  opacity: 0.75;
   cursor: pointer;
 }
