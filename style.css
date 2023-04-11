@@ -78,6 +78,18 @@ main {
   color: var(--text-secondary);
 }
 
+/* Different Colors */
+
+.nav-link .fa-secondary {
+  filter: opacity(0.7);
+}
+
+.nav-link .fa-secondary:hover {
+  filter: opacity(0.7);
+}
+
+/* Different Colors End */
+
 .link-text {
   display: none;
   margin-left: 1rem;
@@ -212,7 +224,7 @@ main {
 
 .light {
   --text-primary: #b6b6b6;
-  --text-secondary: #6649b8;
+  --text-secondary: #c5e90b;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
@@ -244,8 +256,8 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(auto-fill, 1fr);
   gap: 1vh;
   justify-content: center;
   align-content: center;
@@ -267,6 +279,7 @@ main {
 
 .container .box img {
   width: 100%;
+  object-fit: cover;
 }
 
 /* Masonry Grid Responsive */
