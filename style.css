@@ -90,11 +90,11 @@ main {
 }
 
 .fa-primary {
-  color: #ff7eee;
+  color: var(--text-secondary);
 }
 
 .fa-secondary {
-  color: #df49a6;
+  color: var(--text-secondary);
 }
 
 .fa-primary,
@@ -211,17 +211,17 @@ main {
 }
 
 .light {
-  --text-primary: #554d56;
-  --text-secondary: #ff7eee;
-  --bg-primary: #fbfbfb;
-  --bg-secondary: #f7f7f7;
+  --text-primary: #b6b6b6;
+  --text-secondary: #6649b8;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
 }
 
 .solar {
   --text-primary: #b6b6b6;
-  --text-secondary: #ff7eee;
-  --bg-primary: #979197;
-  --bg-secondary: #554d56;
+  --text-secondary: #ffa500;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
 }
 
 .theme-icon {
@@ -262,7 +262,7 @@ main {
 }
 
 .container .box:hover {
-  background: #6649b8;
+  background: var(--text-secondary);
 }
 
 .container .box img {
