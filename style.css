@@ -277,7 +277,8 @@ main {
 .post {
   position: relative;
   overflow: hidden;
-  /* background: #131313; */
+  padding: 1vh;
+  background: var(--bg-primary);
 }
 
 img {
