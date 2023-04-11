@@ -217,21 +217,21 @@ main {
 
 .dark {
   --text-primary: #b6b6b6;
-  --text-secondary: #ff7eee;
+  --text-secondary: #f58216;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
 
 .light {
   --text-primary: #b6b6b6;
-  --text-secondary: #c5e90b;
+  --text-secondary: #ff73e8;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
 
 .solar {
   --text-primary: #b6b6b6;
-  --text-secondary: #ffa500;
+  --text-secondary: #3cdfff;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
@@ -290,6 +290,8 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
   height: 100%;
 
