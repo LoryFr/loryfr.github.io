@@ -25,11 +25,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background: var(--bg-secondary);
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: var(--bg-primary);
 }
 
 main {
@@ -144,12 +144,11 @@ main {
 }
 
 .navicons {
-  transform: rotate(0deg);
   transition: var(--transition-speed);
 }
 
 .navbar:hover .navicons {
-  transform: rotate(-360deg);
+  transform: rotate(360deg);
 }
 
 /* Mobile Adaptive */
@@ -179,14 +178,6 @@ main {
   }
 }
 
-/* Ultra Vertical Mobile Adaptive */
-
-@media only screen and (max-width: 400px) {
-  .nav-item:last-child {
-    display: none;
-  }
-}
-
 /* Desktop Adaptive */
 
 @media only screen and (min-width: 600px) {
@@ -197,7 +188,7 @@ main {
   }
 
   .navbar:hover {
-    width: 17rem;
+    width: 20rem;
   }
 
   .navbar:hover .link-text {
@@ -206,7 +197,7 @@ main {
 
   .navbar:hover .logo svg
   {
-    margin-left: 13rem;
+    margin-left: 16rem;
   }
 
   .navbar:hover .logo-text
@@ -215,98 +206,4 @@ main {
   }
 }
 
-.dark {
-  --text-primary: #b6b6b6;
-  --text-secondary: #f58216;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-}
-
-.light {
-  --text-primary: #b6b6b6;
-  --text-secondary: #ff73e8;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-}
-
-.solar {
-  --text-primary: #b6b6b6;
-  --text-secondary: #3cdfff;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-}
-
-.theme-icon {
-  display: none;
-}
-
-.dark #darkIcon {
-  display: block;
-}
-
-.light #lightIcon {
-  display: block;
-}
-
-.solar #solarIcon {
-  display: block;
-}
-
 /* Masonry Grid for Stills (JS)*/
-
-.stills-main {
-  box-sizing: border-box;
-  position: fixed;
-  height: 100%;
-  overflow: scroll;
-}
-
-.container {
-  position: relative;
-  display: flex;
-  gap: 1vh;
-}
-
-.column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1vh;
-}
-
-.post {
-  position: relative;
-  overflow: hidden;
-  padding: 1vh;
-  background: var(--bg-primary);
-  transition: var(--transition-speed);
-}
-
-.stills-main img {
-  width: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: var(--transition-speed);
-}
-
-.post:hover .overlay {
-  opacity: 0.75;
-  cursor: pointer;
-}
-
-.post:hover {
-  background: var(--text-secondary);
-}
