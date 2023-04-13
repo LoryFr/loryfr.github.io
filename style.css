@@ -1,7 +1,7 @@
 :root {
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
-  --text-primary: #b6b6b6;
+  --text-primary: #ffe176;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
@@ -68,27 +68,16 @@ main {
   height: 5rem;
   color: var(--text-primary);
   text-decoration: none;
-  filter: grayscale(100%) opacity(1);
+  filter: grayscale(100) opacity(1);
   transition: var(--transition-speed);
 }
 
 .nav-link:hover {
-  filter: grayscale(0%) opacity(1);
+  filter: grayscale(0) opacity(1);
   background: var(--bg-secondary);
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
-/* Different Colors */
-
-.nav-link .fa-secondary {
-  filter: opacity(0.7);
-}
-
-.nav-link .fa-secondary:hover {
-  filter: opacity(0.7);
-}
-
-/* Different Colors End */
 
 .link-text {
   display: none;
@@ -102,11 +91,11 @@ main {
 }
 
 .fa-primary {
-  color: var(--text-secondary);
+  color: #6d64ed;
 }
 
 .fa-secondary {
-  color: var(--text-secondary);
+  color: #ffe176;
 }
 
 .fa-primary,
@@ -119,7 +108,7 @@ main {
   text-transform: uppercase;
   margin-bottom: 1rem;
   text-align: center;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   background: var(--bg-secondary);
   font-size: 0.8rem;
   letter-spacing: 0.3ch;
