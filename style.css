@@ -91,11 +91,11 @@ main {
 }
 
 .fa-primary {
-  color: #6d64ed;
+  color: #ffe176;
 }
 
 .fa-secondary {
-  color: #ffe176;
+  color: #6d64ed;
 }
 
 .fa-primary,
@@ -177,7 +177,7 @@ main {
   }
 
   .navbar:hover {
-    width: 20rem;
+    width: 17rem;
   }
 
   .navbar:hover .link-text {
@@ -186,7 +186,7 @@ main {
 
   .navbar:hover .logo svg
   {
-    margin-left: 16rem;
+    margin-left: 13rem;
   }
 
   .navbar:hover .logo-text
