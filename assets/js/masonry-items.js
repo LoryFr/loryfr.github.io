@@ -7,11 +7,7 @@ const images = [
     'assets/img/stills/masonry2.webp',
     'assets/img/stills/masonry3.webp',
     'assets/img/stills/masonry4.webp',
-    'assets/img/stills/masonry5.webp',
-    'assets/img/stills/masonry6.webp',
-    'assets/img/stills/masonry7.webp',
-    'assets/img/stills/masonry8.webp',
-    'assets/img/stills/masonry9.webp'
+    'assets/img/stills/masonry5.webp'
 ]
 
 let imageIndex = 0;
