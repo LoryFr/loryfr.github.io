@@ -129,7 +129,7 @@ main {
 }
 
 .navbar:hover .logo svg {
-  transform: rotate(360deg);
+  transform: rotate(-360deg);
 }
 
 .navicons {
@@ -196,3 +196,19 @@ main {
 }
 
 /* Home Page */
+
+/* Masonry Grid Stills */
+
+.stills-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+}
+
+.stills-box {
+  background: var(--bg-primary);
+}
+
+.stills-image {
+  background-image: url(assets\img\stills\masonry1.webp);
+}
