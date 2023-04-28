@@ -42,6 +42,7 @@ main {
   background-color: var(--bg-primary);
   transition: width var(--transition-speed) ease;
   overflow: scroll;
+  transition: var(--transition-speed);
 }
 
 .navbar-nav {
@@ -82,6 +83,7 @@ main {
 .link-text {
   display: none;
   margin-left: 1rem;
+  text-transform: uppercase;
 }
 
 .nav-link svg {
