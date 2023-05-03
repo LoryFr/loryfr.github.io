@@ -232,3 +232,9 @@ main {
   grid-column: 1;
   grid-row: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
