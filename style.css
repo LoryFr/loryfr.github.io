@@ -201,16 +201,12 @@ main {
 
 /* Masonry Grid Stills */
 
-.stills-container {
+.grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto;
-}
-
-.stills-box {
-  background: var(--bg-primary);
-}
-
-.stills-image {
-  background-image: url(assets\img\stills\masonry1.webp);
+  grid-auto-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1vh;
+  place-items: center;
+  justify-content: space-evenly;
+  grid-auto-flow: dense;
 }
