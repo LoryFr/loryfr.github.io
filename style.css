@@ -203,10 +203,32 @@ main {
 
 .grid-container {
   display: grid;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 1vh;
   place-items: center;
   justify-content: space-evenly;
   grid-auto-flow: dense;
+}
+
+.grid-item {
+  padding: 1vh;
+  background-color: var(--bg-primary);
+  transition: var(--transition-speed);
+}
+
+.grid-item:hover {
+  background-color: var(--text-primary);
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.grid-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
 }
