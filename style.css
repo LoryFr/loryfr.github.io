@@ -1,7 +1,7 @@
 :root {
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
-  --text-primary: #ffe176;
+  --text-primary: orange;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
@@ -93,11 +93,11 @@ main {
 }
 
 .fa-primary {
-  color: #ffe176;
+  color: orange;
 }
 
 .fa-secondary {
-  color: #6d64ed;
+  color: teal;
 }
 
 .fa-primary,
@@ -235,6 +235,6 @@ main {
 
 @media only screen and (max-width: 600px) {
   .grid-container {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 }
