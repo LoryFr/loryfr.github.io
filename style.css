@@ -27,11 +27,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--text-primary);
+  background: var(--bg-primary);
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--bg-primary);
+  background: var(--ac-color-primary);
 }
 
 main {
