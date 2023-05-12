@@ -5,6 +5,8 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --ac-color-primary: orange;
+  --ac-color-secondary: teal;
   --transition-speed: 300ms;
 }
 
@@ -93,11 +95,11 @@ main {
 }
 
 .fa-primary {
-  color: var(--text-primary);
+  color: var(--ac-color-primary);
 }
 
 .fa-secondary {
-  color: #1F4690;
+  color: var(--ac-color-secondary);
 }
 
 .fa-primary,
