@@ -244,7 +244,7 @@ main {
   grid-template-columns: 1fr 10% 10% 10% 1fr;
   grid-template-rows: 1fr auto 1fr;
   align-items: center;
-  align-content: center;
+  align-content: end;
   justify-content: center;
   justify-items: center;
 }
