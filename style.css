@@ -374,5 +374,14 @@ main {
 @media only screen and (max-width: 600px) {
   .aboutme-container {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .aboutme-item:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .aboutme-item:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
   }
 }
