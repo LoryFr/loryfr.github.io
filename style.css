@@ -312,11 +312,20 @@ main {
   .footer-item:nth-child(5) {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 12px;
+    font-size: .7rem;
   }
 
   .footer-item .footer-link img {
     width: 3vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .footer-item:nth-child(1) {
+    justify-self: end;
+  }
+  .footer-item:nth-child(3) {
+    justify-self: start;
   }
 }
 
