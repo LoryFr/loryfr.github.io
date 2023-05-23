@@ -332,6 +332,11 @@ main {
   grid-row: 1;
   padding: 1vh;
   background: var(--bg-primary);
+  transition: var(--transition-speed);
+}
+
+.about-item:nth-child(2):hover {
+  background: var(--ac-color-primary);
 }
 
 .about-item:nth-child(3) {
