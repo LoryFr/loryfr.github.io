@@ -228,7 +228,6 @@ main {
   height: 100%;
   object-fit: cover;
   vertical-align: bottom;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 2000px) {
