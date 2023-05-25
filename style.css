@@ -405,7 +405,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   .clients-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
