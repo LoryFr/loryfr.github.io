@@ -354,7 +354,7 @@ main {
 .about-item .about-line {
   background: var(--ac-color-primary);
   height: .3vh;
-  width: 3vh;
+  width: 6vh;
   border-radius: .3rem;
 }
 
@@ -362,6 +362,7 @@ main {
   .about-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    padding-bottom: 5%;
   }
   .about-item:nth-child(1) {
     grid-column: 1;
@@ -384,20 +385,28 @@ main {
 .clients-container {
   display: grid;
   height: auto;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 1vh;
+  grid-gap: 5vh;
   justify-content: center;
   grid-auto-flow: dense;
   justify-items: center;
   align-items: center;
   padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .clients-item img {
   height: 5vh;
   object-fit: cover;
   vertical-align: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+  .clients-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Projects Page */
