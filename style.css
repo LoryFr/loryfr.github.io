@@ -323,8 +323,7 @@ main {
 .about-item:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
-  padding: 1vh 10%;
-  text-justify: distribute;
+  padding: 0 10%;
 }
 
 .about-item:nth-child(2) {
