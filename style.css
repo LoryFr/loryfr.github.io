@@ -322,7 +322,7 @@ main {
 
 .about-item:nth-child(1) {
   grid-column: 1;
-  grid-row: 1;
+  grid-row: span 1;
   padding: 0 10%;
 }
 
@@ -366,11 +366,12 @@ main {
   }
   .about-item:nth-child(1) {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
+    text-align: center;
   }
   .about-item:nth-child(2) {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
   }
   .about-item:nth-child(3) {
     grid-column: 1;
@@ -429,7 +430,7 @@ main {
 .contactme-container {
   height: auto;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1vh;
   grid-auto-flow: dense;
