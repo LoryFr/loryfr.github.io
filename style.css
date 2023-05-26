@@ -1,12 +1,12 @@
 :root {
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
-  --text-primary: orange;
+  --text-primary: #fc6600;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
-  --ac-color-primary: orange;
-  --ac-color-secondary: teal;
+  --ac-color-primary: #fd6a02;
+  --ac-color-secondary: #ff7417;
   --transition-speed: 300ms;
 }
 
@@ -422,4 +422,38 @@ main {
   align-content: center;
   justify-content: center;
   justify-items: center;
+}
+
+/* Contact Me Page */
+
+.contactme-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1vh;
+  grid-auto-flow: dense;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contactme-item h1 {
+  text-transform: uppercase;
+}
+
+.contactme-item img {
+  vertical-align: bottom;
+}
+
+.contactme-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+}
+
+.contactme-item:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
 }
