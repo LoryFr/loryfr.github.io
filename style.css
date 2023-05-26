@@ -7,7 +7,7 @@
   --bg-secondary: #141418;
   --ac-color-primary: orange;
   --ac-color-secondary: teal;
-  --transition-speed: 300ms;
+  --transition-speed: 200ms ease-out;
 }
 
 body {
@@ -367,7 +367,6 @@ main {
   .about-item:nth-child(1) {
     grid-column: 1;
     grid-row: 2;
-    text-align: center;
   }
   .about-item:nth-child(2) {
     grid-column: 1;
@@ -423,6 +422,21 @@ main {
   align-content: center;
   justify-content: center;
   justify-items: center;
+}
+
+.projects-item a img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.projects-item {
+  padding: 1vh;
+  background: var(--bg-primary);
+  transition: var(--transition-speed);
+}
+
+.projects-item:hover {
+  background: var(--ac-color-primary);
 }
 
 /* Contact Me Page */
