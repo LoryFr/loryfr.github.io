@@ -459,3 +459,17 @@ main {
   justify-content: center;
   justify-items: center;
 }
+
+/* General Media Queries */
+
+@media (hover: none) {
+  .grid-item:hover {
+    background: inherit;
+  }
+  .projects-item:hover {
+    background: inherit;
+  }
+  .about-item:nth-child(2):hover {
+    background: inherit;
+  }
+}
