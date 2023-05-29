@@ -413,15 +413,8 @@ main {
 
 .projects-container {
   height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  column-count: 2;
   grid-gap: 1vh;
-  grid-auto-flow: dense;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  justify-items: center;
 }
 
 .projects-item a img {
@@ -433,6 +426,7 @@ main {
   padding: 1vh;
   background: var(--bg-primary);
   transition: var(--transition-speed);
+  margin-bottom: 1vh;
 }
 
 .projects-item:hover {
@@ -441,7 +435,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   .projects-container {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
 }
 
