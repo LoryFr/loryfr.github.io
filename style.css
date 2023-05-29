@@ -413,7 +413,7 @@ main {
 
 .projects-container {
   height: auto;
-  column-count: 2;
+  column-count: 3;
   grid-gap: 1vh;
 }
 
@@ -431,6 +431,12 @@ main {
 
 .projects-item:hover {
   background: var(--ac-color-primary);
+}
+
+@media only screen and (max-width: 2000px) {
+  .projects-container {
+    column-count: 2;
+  }
 }
 
 @media only screen and (max-width: 600px) {
