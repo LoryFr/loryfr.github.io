@@ -464,12 +464,12 @@ main {
 
 @media (hover: none) {
   .grid-item:hover {
-    background: inherit;
+    background: var(--bg-primary);
   }
   .projects-item:hover {
-    background: inherit;
+    background: var(--bg-primary);
   }
   .about-item:nth-child(2):hover {
-    background: inherit;
+    background: var(--bg-primary);
   }
 }
