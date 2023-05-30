@@ -419,6 +419,7 @@ main {
 
 .projects-item img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .projects-item a img {
