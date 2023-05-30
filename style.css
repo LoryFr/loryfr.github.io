@@ -461,6 +461,11 @@ main {
   padding: 0 0 5%;
 }
 
+.contactme-item h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .contactme-item img {
   height: 10rem;
 }
