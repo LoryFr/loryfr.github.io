@@ -450,14 +450,35 @@ main {
 .contactme-container {
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr;
   grid-gap: 1vh;
+  grid-template-rows: auto;
   grid-auto-flow: dense;
   align-items: center;
   align-content: center;
   justify-content: center;
   justify-items: center;
+  padding: 0 0 5%;
+}
+
+.contactme-item img {
+  height: 10rem;
+}
+
+.contactme-item a img {
+  height: 3rem;
+  padding: 1vh;
+}
+
+.contactme-item:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactme-item:nth-child(3) {
+    flex-direction: column;
+  }
 }
 
 /* General Media Queries */
