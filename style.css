@@ -417,6 +417,10 @@ main {
   grid-gap: 1vh;
 }
 
+.projects-item img {
+  width: 100%;
+}
+
 .projects-item a img {
   width: 100%;
   vertical-align: bottom;
