@@ -322,6 +322,7 @@ main {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2rem;
+  color: orange;
 }
 
 .about-item:nth-child(1) {
@@ -473,6 +474,7 @@ main {
 .contactme-item h1 {
   text-transform: uppercase;
   font-weight: 600;
+  color: orange;
 }
 
 .contactme-item img {
