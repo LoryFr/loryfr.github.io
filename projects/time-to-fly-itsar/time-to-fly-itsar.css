@@ -1,0 +1,22 @@
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.project-item {
+    padding: 1vh;
+    background: var(--bg-primary);
+    transition: var(--transition-speed);
+}
+
+.project-item:hover {
+    background: var(--ac-color-primary);
+}
+
+iframe {
+    vertical-align: bottom;
+}
