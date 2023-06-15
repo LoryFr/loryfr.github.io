@@ -1,4 +1,5 @@
 .project-container {
+    padding: 0 1vh 0 1vh;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
@@ -8,6 +9,7 @@
 }
 
 .project-item:nth-child(1) {
+    width: 100%;
     padding: 1vh;
     background: var(--bg-primary);
     transition: var(--transition-speed);
@@ -19,4 +21,10 @@
 
 iframe {
     vertical-align: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+        height: 200px;
+    }    
 }
