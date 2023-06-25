@@ -417,8 +417,6 @@ main {
 /* Projects Page */
 
 .projects-container {
-  width: 100%:
-  height: auto;
   column-count: 3;
   grid-gap: 1vh;
 }
