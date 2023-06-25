@@ -451,7 +451,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   .projects-container {
-    column-count: 2;
+    column-count: 1;
   }
 }
 
