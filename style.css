@@ -498,7 +498,7 @@ main {
 
 /* General Media Queries */
 
-@media (hover: none) {
+@media screen and (min-width: 600px) and (hover: none) {
   .grid-item:hover {
     background: var(--bg-primary);
   }
@@ -507,5 +507,14 @@ main {
   }
   .about-item:nth-child(2):hover {
     background: var(--bg-primary);
+  }
+  .navbar:hover {
+    width: 5rem;
+  }
+  .navbar:hover .link-text {
+    display: none;
+  }
+  .navbar:hover .logo-text {
+    display: none;
   }
 }
