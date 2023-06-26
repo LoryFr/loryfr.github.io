@@ -517,4 +517,7 @@ main {
   .navbar:hover .logo-text {
     display: none;
   }
+  .navbar:hover .navicons {
+    transform: none;
+  }
 }
