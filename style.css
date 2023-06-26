@@ -521,3 +521,9 @@ main {
     transform: none;
   }
 }
+
+@media only screen and (max-height: 600px) {
+  .logo {
+    display: none;
+  }
+}
