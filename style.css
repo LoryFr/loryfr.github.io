@@ -517,9 +517,6 @@ main {
   .navbar:hover .logo-text {
     display: none;
   }
-  .navbar:hover .navicons {
-    transform: none;
-  }
 }
 
 @media only screen and (max-height: 600px) {
