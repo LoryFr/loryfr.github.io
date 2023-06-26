@@ -508,7 +508,4 @@ main {
   .about-item:nth-child(2):hover {
     background: var(--bg-primary);
   }
-  .navbar:hover {
-    width: 5rem;
-  }
 }
