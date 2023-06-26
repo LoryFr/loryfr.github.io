@@ -517,6 +517,9 @@ main {
   .navbar:hover .logo-text {
     display: none;
   }
+  .navbar:hover .logo svg {
+    margin-left: 1.5rem;
+  }
 }
 
 @media only screen and (max-height: 600px) {
