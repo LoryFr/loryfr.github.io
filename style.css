@@ -325,10 +325,6 @@ main {
   color: var(--ac-color-primary);
 }
 
-.about-item:nth-child(3) h1 {
-  color: var(--ac-color-secondary);
-}
-
 .about-item:nth-child(1) {
   grid-column: 1;
   grid-row: span 1;
@@ -361,7 +357,7 @@ main {
 }
 
 .about-item .about-line {
-  background: var(--ac-color-secondary);
+  background: var(--ac-color-primary);
   height: .3vh;
   width: 6vh;
   border-radius: .3rem;
