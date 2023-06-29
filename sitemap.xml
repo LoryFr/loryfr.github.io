@@ -2,25 +2,25 @@
 
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>lorenzofiori.art/</loc>
+        <loc>www.lorenzofiori.art/</loc>
         <lastmod>2023-06-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>lorenzofiori.art/projects</loc>
+        <loc>www.lorenzofiori.art/projects</loc>
         <lastmod>2023-06-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>lorenzofiori.art/about</loc>
+        <loc>www.lorenzofiori.art/about</loc>
         <lastmod>2023-06-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>lorenzofiori.art/contactme</loc>
+        <loc>www.lorenzofiori.art/contactme</loc>
         <lastmod>2023-06-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
