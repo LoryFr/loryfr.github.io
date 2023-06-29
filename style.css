@@ -361,7 +361,7 @@ main {
 }
 
 .about-item .about-line {
-  background: var(--ac-color-primary);
+  background: var(--ac-color-secondary);
   height: .3vh;
   width: 6vh;
   border-radius: .3rem;
