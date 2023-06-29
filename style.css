@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Outfit', sans-serif;
   --text-primary: orange;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -85,7 +85,6 @@ main {
 .link-text {
   display: none;
   margin-left: 1rem;
-  text-transform: uppercase;
 }
 
 .nav-link svg {
@@ -266,7 +265,7 @@ main {
 }
 
 .footer-item h3 {
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -319,10 +318,13 @@ main {
 }
 
 .about-item h1 {
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 2rem;
   color: var(--ac-color-primary);
+}
+
+.about-item p {
+  font-size: 1.1rem;
 }
 
 .about-item:nth-child(1) {
@@ -471,9 +473,8 @@ main {
 }
 
 .contactme-item h1 {
-  text-transform: uppercase;
   font-weight: 600;
-  color: orange;
+  color: var(--ac-color-primary);
 }
 
 .contactme-item svg {
