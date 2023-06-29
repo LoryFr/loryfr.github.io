@@ -322,11 +322,11 @@ main {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2rem;
-  color: orange;
+  color: var(--ac-color-primary);
 }
 
-.about-itemnth-child(3) h1 {
-  color: teal;
+.about-item:nth-child(3) h1 {
+  color: var(--ac-color-secondary);
 }
 
 .about-item:nth-child(1) {
