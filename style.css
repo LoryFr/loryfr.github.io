@@ -325,6 +325,10 @@ main {
   color: orange;
 }
 
+.about-item h1:nth-child(2) {
+  color: teal;
+}
+
 .about-item:nth-child(1) {
   grid-column: 1;
   grid-row: span 1;
