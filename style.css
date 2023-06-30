@@ -310,13 +310,11 @@ main {
   align-content: center;
   justify-content: center;
   justify-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
 }
 
 .about-item img {
   vertical-align: bottom;
-  width: 100%;
+  max-width: 100%;
 }
 
 .about-item h1 {
@@ -337,7 +335,7 @@ main {
 
 .about-item:nth-child(2) {
   grid-column: 1;
-  grid-row: 1;
+  grid-row: span 1;
   padding: 1vh;
   background: var(--bg-primary);
   transition: var(--transition-speed);
@@ -371,8 +369,6 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding-bottom: 5%;
-    padding-left: 0;
-    padding-right: 0;
   }
   .about-item:nth-child(1) {
     grid-column: 1;
