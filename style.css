@@ -536,6 +536,18 @@ main {
   }
 }
 
+@media screen and (max-width: 600px) and (hover: none) {
+  .grid-item:hover {
+    background: var(--bg-primary);
+  }
+  .projects-item:hover {
+    background: var(--bg-primary);
+  }
+  .about-item:nth-child(2):hover {
+    background: var(--bg-primary);
+  }
+}
+
 @media only screen and (max-height: 600px) {
   .logo {
     display: none;
