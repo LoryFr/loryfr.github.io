@@ -331,6 +331,8 @@ main {
   grid-column: 2;
   grid-row: span 1;
   padding: 0 10%;
+  text-align: justify;
+  text-justify: distribute;
 }
 
 .about-item:nth-child(2) {
