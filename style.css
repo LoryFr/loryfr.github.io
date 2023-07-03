@@ -555,9 +555,3 @@ main {
     display: none;
   }
 }
-
-/* Generals */
-
-p {
-  color: var(--text-secondary);
-}
