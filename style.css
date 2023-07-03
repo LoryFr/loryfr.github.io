@@ -492,6 +492,7 @@ main {
 
 .contactme-item p {
   font-size: 1.1rem;
+  color: var(--text-secondary);
 }
 
 .contactme-item:nth-child(2) {
