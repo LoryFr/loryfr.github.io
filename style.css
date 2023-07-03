@@ -257,6 +257,7 @@ main {
   align-content: center;
   justify-content: center;
   justify-items: center;
+  color: var(--text-secondary);
 }
 
 .footer-item img {
