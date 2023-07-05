@@ -568,3 +568,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.details-container hr {
+  border: solid var(--text-secondary) 0.1rem;
+}
