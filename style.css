@@ -569,6 +569,10 @@ main {
   flex-direction: column;
 }
 
+.details-content:nth-child(2) {
+  text-align: right;
+}
+
 .details-container hr {
   border: solid var(--text-secondary) 0.1rem;
 }
