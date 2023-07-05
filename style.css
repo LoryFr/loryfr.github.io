@@ -555,3 +555,16 @@ main {
     display: none;
   }
 }
+
+/* Projects Pages Details */
+
+.details {
+  padding: 1% 0 1% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-content {
+  display: flex;
+  flex-direction: column;
+}
