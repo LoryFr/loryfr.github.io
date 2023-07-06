@@ -521,6 +521,9 @@ main {
   .projects-item:hover {
     background: var(--bg-primary);
   }
+  .project-item:hover {
+    background: var(--bg-primary);
+  }
   .about-item:nth-child(2):hover {
     background: var(--bg-primary);
   }
