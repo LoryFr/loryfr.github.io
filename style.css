@@ -34,12 +34,10 @@ body::-webkit-scrollbar-thumb {
   background: var(--ac-color-primary);
 }
 
-body {
-  -ms-overflow-style: none;
-}
-
-html {
-  scrollbar-width: none;
+@media only screen and (max-width: 600px) {
+  html {
+    scrollbar-width: none;
+  }
 }
 
 main {
@@ -569,6 +567,13 @@ main {
 
 /* Projects Pages Details */
 
+.details-container {
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+  padding: 1%;
+}
+
 .details {
   padding: 1% 0 1% 0;
   display: flex;
@@ -585,5 +590,5 @@ main {
 }
 
 .details-container hr {
-  border: solid var(--text-secondary) 0.1rem;
+  border-color: var(--text-secondary);
 }
