@@ -593,3 +593,9 @@ main {
 .details-container hr {
   border-color: var(--text-secondary);
 }
+
+@media only screen and (max-width: 600px) {
+  .details-container {
+    background: none;
+  }
+}
