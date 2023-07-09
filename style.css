@@ -568,10 +568,11 @@ main {
 /* Projects Pages Details */
 
 .details-container {
-  max-width: 1200px;
   display: block;
   margin: auto;
   padding: 1%;
+  background: var(--bg-primary);
+  margin: 0 0 1vh 0;
 }
 
 .details {
