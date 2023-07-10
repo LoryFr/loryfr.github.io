@@ -34,12 +34,6 @@ body::-webkit-scrollbar-thumb {
   background: var(--ac-color-primary);
 }
 
-@media only screen and (max-width: 600px) {
-  html {
-    scrollbar-width: none;
-  }
-}
-
 main {
   margin-left: 5rem;
   padding: 1vh;
