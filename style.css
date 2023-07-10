@@ -585,7 +585,7 @@ main {
 }
 
 .details-container hr {
-  border-color: var(--text-secondary);
+  border: solid var(--text-secondary) 1px;
 }
 
 @media only screen and (max-width: 600px) {
