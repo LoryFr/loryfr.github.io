@@ -584,7 +584,9 @@ main {
 }
 
 .details-container hr {
-  border: solid var(--text-secondary) 1px;
+  border: 1px solid var(--bg-primary);
+  opacity: 1;
+  border-radius: 1px;
 }
 
 @media only screen and (max-width: 600px) {
