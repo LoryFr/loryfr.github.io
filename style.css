@@ -564,7 +564,7 @@ main {
 .details-container {
   display: block;
   margin: auto;
-  padding: 1% 5% 1% 5%;
+  padding: 1% 20px 1% 20px;
   margin: 0 0 1vh 0;
 }
 
