@@ -568,19 +568,33 @@ main {
   margin: 0 0 1vh 0;
 }
 
+.details-container h1 {
+  font-size: 2rem;
+}
+
+.details-container h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
 .details {
   padding: 1% 0 1% 0;
   display: flex;
-  justify-content: space-between;
 }
 
 .details-content {
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
+}
+
+.details-content span {
+  font-weight: 200;
 }
 
 .details-content:nth-child(2) {
-  text-align: right;
+  text-align: left;
+  margin-left: 40px;
 }
 
 .details-container hr {
@@ -590,7 +604,10 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-  .details-container {
-    background: none;
+  .details-content {
+    font-size: 0.9rem;
+  }
+  .details-container h3 {
+    font-size: 0.9rem;
   }
 }
