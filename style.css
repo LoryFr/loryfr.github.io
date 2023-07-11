@@ -575,6 +575,8 @@ main {
 .details-container h3 {
   text-transform: uppercase;
   font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .details {
@@ -601,6 +603,12 @@ main {
   border: 1px solid var(--bg-primary);
   opacity: 1;
   border-radius: 1px;
+}
+
+.details-container p {
+  hyphens: auto;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 @media only screen and (max-width: 600px) {
