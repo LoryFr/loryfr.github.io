@@ -566,6 +566,8 @@ main {
   margin: auto;
   padding: 1% 20px 1% 20px;
   margin: 0 0 1vh 0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .details-container h1 {
@@ -576,7 +578,6 @@ main {
   text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: 20px;
-  margin-top: 40px;
 }
 
 .details {
@@ -608,7 +609,29 @@ main {
 .details-container p {
   hyphens: auto;
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 400;
+}
+
+.combo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.combo-content-description {
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .combo-content {
+    flex-direction: column;
+  }
+  .combo-content-description {
+    margin-left: 0;
+    max-width: 1200px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
