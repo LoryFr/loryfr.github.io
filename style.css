@@ -164,10 +164,6 @@ main {
     margin: 0;
     margin-bottom: 5rem;
   }
-
-  .navbar:hover .navicons {
-    transform: rotate(360deg);
-  }
 }
 
 /* Desktop Adaptive */
