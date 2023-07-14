@@ -15,10 +15,6 @@
     transition: var(--transition-speed);
 }
 
-.project-item:hover {
-    background: orange;
-}
-
 iframe {
     vertical-align: bottom;
     height: calc(50vw / (16/9));
@@ -27,11 +23,5 @@ iframe {
 @media only screen and (max-width: 600px) {
     iframe {
         height: 200px;
-    }
-}
-
-@media (hover: none) {
-    .project-item:hover {
-        background: var(--bg-primary);
     }
 }
