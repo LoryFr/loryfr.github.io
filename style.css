@@ -602,7 +602,6 @@ main {
 
 .details-container hr {
   border: 1px solid var(--bg-primary);
-  opacity: 1;
   border-radius: 1px;
 }
 
@@ -648,4 +647,9 @@ main {
   .details-container h3 {
     font-size: 0.9rem;
   }
+}
+
+hr {
+  border: 1px solid var(--bg-primary);
+  border-radius: 1px;
 }
