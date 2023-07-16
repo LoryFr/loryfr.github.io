@@ -62,7 +62,7 @@ main {
 }
 
 .nav-item:last-child {
-  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nav-link {
