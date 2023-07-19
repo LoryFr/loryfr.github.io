@@ -136,7 +136,7 @@ main {
 }
 
 .navbar:hover .navicons {
-    transform: rotate(45deg);
+    transform: rotate(360deg);
 }
 
 .navicons {
