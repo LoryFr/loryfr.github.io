@@ -135,6 +135,10 @@ main {
   transform: rotate(-360deg);
 }
 
+.navbar:hover .navicons {
+    transform: rotate(360deg);
+}
+
 .navicons {
   transition: var(--transition-speed);
 }
@@ -163,10 +167,6 @@ main {
   main {
     margin: 0;
     margin-bottom: 5rem;
-  }
-
-  .navbar:hover .navicons {
-    transform: rotate(360deg);
   }
 }
 
