@@ -7,7 +7,7 @@
   --bg-secondary: #141418;
   --ac-color-primary: orange;
   --ac-color-secondary: teal;
-  --transition-speed: 200ms ease-out;
+  --transition-speed: 300ms ease-in-out;
 }
 
 body {
