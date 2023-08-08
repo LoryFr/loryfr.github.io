@@ -252,6 +252,7 @@ body {
 .projects-container {
     background-color: var(--bg-primary);
     padding: 110px 100px;
+    min-height: 100vh;
 }
 
 @media (max-width: 798px) {
@@ -261,7 +262,6 @@ body {
 }
 
 .projects-container .projects-grid {
-    min-height: 100vh;
     column-count: 3;
     gap: 15px;
 }
@@ -301,6 +301,7 @@ body {
 .gallery-container {
     background-color: var(--bg-primary);
     padding: 110px 100px;
+    min-height: 100vh;
 }
 
 @media (max-width: 798px) {
@@ -310,7 +311,6 @@ body {
 }
 
 .gallery-container .gallery-grid {
-    min-height: 100vh;
     column-count: 3;
     gap: 15px;
 }
@@ -340,3 +340,24 @@ body {
 }
 
 /* /Gallery Page */
+
+/* About Me Page */
+
+.about-container {
+    background-color: var(--bg-primary);
+    padding: 110px 100px;
+    min-height: 100vh;
+}
+
+/* /About Me Page */
+
+/* Contact Me Page */
+
+.contact-container {
+    background-color: var(--bg-primary);
+    padding: 110px 100px;
+    min-height: 100vh;
+}
+
+
+/* /Contact Me Page */
