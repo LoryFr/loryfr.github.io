@@ -34,6 +34,7 @@ body {
     background-color: var(--bg-primary);
     cursor: pointer;
     border-radius: 10px;
+    border: solid #3A86FF;
     box-shadow: var(--box-shadow);
     z-index: 100;
 }
@@ -44,6 +45,7 @@ body {
     background-size: 25px;
     background-position: center;
     background-color: white;
+    border: none;
     right: +100px;
     position: fixed;
 }
@@ -76,6 +78,7 @@ body {
 @media (max-width: 798px) {
     .navbar .nav-toggle {
         margin: 30px 50px;
+        border: none;
     }
     .navbar .nav-toggle.active {
         right: 0;
