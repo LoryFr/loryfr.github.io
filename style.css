@@ -344,74 +344,6 @@ body {
 
 /* /Gallery Page */
 
-/* About Page */
-
-.about-container {
-    background-color: var(--bg-primary);
-    padding: 110px 100px;
-    min-height: 100vh;
-    color: white;
-}
-
-@media (max-width: 798px) {
-    .about-container {
-        padding: 110px 50px;
-    }
-}
-
-.aboutme-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 25px;
-    max-width: 600px;
-    margin: auto;
-}
-
-.aboutme-container .aboutme-image {
-    display: flex;
-    justify-content: center;
-}
-
-.aboutme-container .aboutme-image img {
-    max-width: 600px;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
-}
-
-.aboutme-container .aboutme-text {
-    text-align: center;
-}
-
-.aboutme-container .aboutme-text h1 {
-    margin-bottom: 15px;
-    font-size: 48px;
-}
-
-.aboutme-container .aboutme-text p {
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 24px;
-}
-
-@media (max-width: 798px) {
-    .aboutme-image img {
-        width: 100%;
-    }
-    .aboutme-container {
-        gap: 15px;
-    }
-    .aboutme-container .aboutme-text h1 {
-        font-size: 32px;
-    }
-    .aboutme-container .aboutme-text p {
-        text-align: left;
-        font-size: 16px;
-    }
-}
-
-/* /About Page */
-
 /* Contact Me Page */
 
 .contact-container {
@@ -420,5 +352,10 @@ body {
     min-height: 100vh;
 }
 
+@media (max-width: 798px) {
+    .contact-container {
+        padding: 110px 50px;
+    }
+}
 
 /* /Contact Me Page */
