@@ -385,19 +385,28 @@ body {
 
 .aboutme-container .aboutme-text h1 {
     margin-bottom: 15px;
+    font-size: 48px;
 }
 
 .aboutme-container .aboutme-text p {
-    text-align: justify;
-    hyphens: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
 }
 
-@media(max-width: 798px) {
+@media (max-width: 798px) {
     .aboutme-image img {
         width: 100%;
     }
     .aboutme-container {
         gap: 15px;
+    }
+    .aboutme-container .aboutme-text h1 {
+        font-size: 32px;
+    }
+    .aboutme-container .aboutme-text p {
+        text-align: left;
+        font-size: 16px;
     }
 }
 
