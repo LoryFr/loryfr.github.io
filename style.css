@@ -344,6 +344,34 @@ body {
 
 /* /Gallery Page */
 
+/* About Page */
+
+.about-container {
+    background-color: var(--bg-primary);
+    padding: 110px 100px;
+    min-height: 100vh;
+}
+
+@media (max-width: 798px) {
+    .about-container {
+        padding: 110px 50px;
+    }
+}
+
+.about-container .propic-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.about-container .propic-container img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+/* /About Page */
+
 /* Contact Me Page */
 
 .contact-container {
