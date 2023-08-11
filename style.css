@@ -350,6 +350,55 @@ body {
     background-color: var(--bg-primary);
     padding: 110px 100px;
     min-height: 100vh;
+    color: white;
+}
+
+@media (max-width: 798px) {
+    .about-container {
+        padding: 110px 50px;
+    }
+}
+
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.aboutme-container .aboutme-image {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme-container .aboutme-image img {
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.aboutme-container .aboutme-text {
+    text-align: center;
+}
+
+.aboutme-container .aboutme-text h1 {
+    margin-bottom: 15px;
+}
+
+.aboutme-container .aboutme-text p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+@media(max-width: 798px) {
+    .aboutme-image img {
+        width: 100%;
+    }
+    .aboutme-container {
+        gap: 15px;
+    }
 }
 
 /* /About Page */
