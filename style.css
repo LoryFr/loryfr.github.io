@@ -129,6 +129,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(43deg, #FFBE0B 0%, #FB5607 50%, #FF006E 75%, #8338EC 95%, #3A86FF 100%);
+    background-image: url("assets/img/logo/wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
