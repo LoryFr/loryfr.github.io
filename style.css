@@ -180,6 +180,12 @@ body {
     box-shadow: var(--box-shadow);
 }
 
+@media (min-width: 798px) {
+    .hero-container .text a {
+        border: solid #3a86ff;
+    }
+}
+
 .hero-container .text a:hover {
     letter-spacing: 6px;
 }
