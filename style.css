@@ -431,10 +431,9 @@ body {
     left: -50%;
     right: -50%;
     bottom: -50%;
-    width: 200vw;
-    height: 200vh;
-    background: transparent url('assets/img/logo/noise.png');
-    background-repeat: repeat;
+    width: 200%;
+    height: 200%;
+    background: url('assets/img/logo/noise.png');
     animation: bg-animation .2s infinite;
     opacity: 0.15;
     pointer-events: none;
