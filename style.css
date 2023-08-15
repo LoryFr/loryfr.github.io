@@ -121,6 +121,7 @@ body {
 }
 
 .content menu {
+    z-index: 1;
     position: absolute;
     top: 30px;
     right: 0;
