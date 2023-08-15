@@ -431,12 +431,12 @@ body {
     left: -50%;
     right: -50%;
     bottom: -50%;
-    width: 200%;
-    height: 200%;
+    width: 300%;
+    height: 300%;
     background: transparent url('assets/img/logo/noise.png');
     background-repeat: repeat;
     animation: bg-animation .2s infinite;
-    opacity: 0.23;
+    opacity: 0.15;
     pointer-events: none;
 }
 
