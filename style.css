@@ -435,6 +435,7 @@ body {
     height: 300%;
     background: transparent url('assets/img/logo/noise.png');
     background-repeat: repeat;
+    background-size: cover;
     animation: bg-animation .2s infinite;
     opacity: 0.15;
     pointer-events: none;
