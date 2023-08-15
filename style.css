@@ -78,7 +78,6 @@ body {
 @media (max-width: 798px) {
     .navbar .nav-toggle {
         margin: 30px 50px;
-        border: none;
     }
     .navbar .nav-toggle.active {
         right: 0;
@@ -178,12 +177,7 @@ body {
     transition: 0.2s;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
-}
-
-@media (min-width: 798px) {
-    .hero-container .text a {
-        border: solid #3a86ff;
-    }
+    border: solid #3a86ff;
 }
 
 .hero-container .text a:hover {
