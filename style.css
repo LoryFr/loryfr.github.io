@@ -432,14 +432,17 @@ body {
     right: -50%;
     bottom: -50%;
     width: 200%;
-    height: 200%;
-    background: url('assets/img/logo/noise.png');
-    animation: bg-animation .2s infinite;
+    height: 200vh;
+    background: transparent url('assets/img/logo/noise.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: noise-animation .2s infinite;
+    visibility: visible;
     opacity: 0.15;
     pointer-events: none;
+    overflow: hidden;
 }
 
-@keyframes bg-animation {
+@keyframes noise-animation {
     0% { transform: translate(0,0) }
     10% { transform: translate(-5%,-5%) }
     20% { transform: translate(-10%,5%) }
