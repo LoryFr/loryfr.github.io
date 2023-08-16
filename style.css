@@ -456,4 +456,10 @@ body {
     100% { transform: translate(5%,0) }
 }
 
+@media (hover:none) {
+    .noise {
+        display: none;
+    }
+}
+
 /* /Noise Generator */
