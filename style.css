@@ -399,22 +399,21 @@ body {
     }
 }
 
-.about-container .flex-container {
-    display: flex;
-    flex-direction: row;
+.about-container .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 600px;
     gap: 15px;
-    height: 50vh;
-    margin-bottom: 15px;
 }
 
 @media (max-width: 798px) {
-    .about-container .flex-container {
-        flex-direction: column;
-        height: 1000px;
+    .about-container .grid-container {
+        grid-template-columns: 1fr;
     }
 }
 
-.about-container .profile-container {
+.about-container .grid-container .profile-container {
+    grid-column: 1 / span 2;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     width: 100%;
@@ -428,36 +427,34 @@ body {
     align-items: center;
 }
 
-.about-container .profile-container .text {
+.about-container .grid-container .profile-container .text {
     margin: 100px;
 }
 
-.about-container .profile-container .text h1 {
+.about-container .grid-container .profile-container .text h1 {
     font-size: 48px;
 }
 
 @media (max-width: 798px) {
-    .about-container .profile-container {
+    .about-container .grid-container .profile-container {
         background-size: 1080px;
     }
-    .about-container .profile-container .text {
+    .about-container .grid-container .profile-container .text {
     margin: 30px;
     }
-    .about-container .profile-container .text h1 {
+    .about-container .grid-container .profile-container .text h1 {
     font-size: 32px;
     }
 }
 
-.about-container .tech-container {
+.about-container .grid-container .tech-container {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
-    width: 100%;
-    height: 100%;
     color: white;
     background-color: #111;
 }
 
-.about-container .tech-container .icons-container {
+.about-container .grid-container .tech-container .icons-container {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
@@ -468,15 +465,15 @@ body {
     width: 100%;
 }
 
-.about-container .tech-container .icons-container img {
+.about-container .grid-container .tech-container .icons-container img {
     height: 100px;
 }
 
 @media (max-width: 798px) {
-    .about-container .tech-container .icons-container {
+    .about-container .grid-container .tech-container .icons-container {
         flex-direction: column;
     }
-    .about-container .tech-container .icons-container img {
+    .about-container .grid-container .tech-container .icons-container img {
         height: 50px;
     }
 }
