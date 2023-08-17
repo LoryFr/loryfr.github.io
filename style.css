@@ -410,7 +410,7 @@ body {
 @media (max-width: 798px) {
     .about-container .flex-container {
         flex-direction: column;
-        height: 125vh;
+        height: 1000px;
     }
 }
 
