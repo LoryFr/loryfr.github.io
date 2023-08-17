@@ -458,6 +458,9 @@ body {
     box-shadow: var(--box-shadow);
     color: white;
     background-color: #111;
+    background-image: url(assets/img/logo/logo-stroke.svg);
+    background-position: center;
+    background-size: 256px;
 }
 
 .about-container .grid-container .tech-container .icons-container {
