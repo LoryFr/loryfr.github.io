@@ -34,7 +34,6 @@ body {
     background-color: var(--bg-primary);
     cursor: pointer;
     border-radius: 10px;
-    border: solid #3A86FF;
     box-shadow: var(--box-shadow);
     z-index: 100;
 }
@@ -211,7 +210,6 @@ body {
     transition: 0.2s;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
-    border: solid #3a86ff;
 }
 
 .hero-container .text a:hover {
