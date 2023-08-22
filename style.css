@@ -140,7 +140,7 @@ body {
 }
 
 .content menu a:hover {
-    opacity: 0.5;
+    color: #FB5607;
 }
 
 @media (max-width: 1200px) {
