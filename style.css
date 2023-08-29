@@ -215,7 +215,7 @@ body {
     text-decoration: none;
     color: #FB5607;
     letter-spacing: 2px;
-    transition: 0.2s;
+    transition: var(--transition-speed);
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
@@ -492,6 +492,96 @@ body {
     .contact-container {
         padding: 110px 30px;
     }
+}
+
+.contact-container .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 600px;
+    gap: 15px;
+}
+
+@media (max-width: 798px) {
+    .contact-container .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-container .grid-container .main-container {
+    grid-column: 1 / span 2;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/img/logo/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 798px) {
+    .contact-container .grid-container .main-container {
+        grid-column: auto;
+    }
+}
+
+.contact-container .grid-container .main-container .text {
+    margin: 100px;
+}
+
+.contact-container .grid-container .main-container .text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.contact-container .grid-container .main-container a {
+    font-size: 1em;
+    background-color: #12192c;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #FB5607;
+    letter-spacing: 2px;
+    transition: var(--transition-speed);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    text-transform: uppercase;
+}
+
+.contact-container .grid-container .main-container a:hover {
+    letter-spacing: 6px;
+}
+
+@media (max-width: 798px) {
+    .contact-container .grid-container .main-container .text {
+    margin: 30px;
+    }
+    .contact-container .grid-container .main-container .text h1 {
+    font-size: 2em;
+    }
+    .contact-container .grid-container .main-container .text a {
+        font-size: 0.8em;
+    }
+}
+
+.contact-container .grid-container .social-container {
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    background-color: #111;
+    display: grid;
+    place-content: center;
+}
+
+.contact-container .grid-container .social-container .flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-container .grid-container .social-container .flex-container img:hover {
+    transform: translateX(15px);
 }
 
 /* /Contact Me Page */
