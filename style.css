@@ -406,7 +406,7 @@ body {
     gap: 15px;
 }
 
-@media (max-width: 798px) {
+@media (max-width: 1500px) {
     .about-container .grid-container {
         grid-template-columns: 1fr;
     }
@@ -427,7 +427,7 @@ body {
     align-items: center;
 }
 
-@media (max-width: 798px) {
+@media (max-width: 1500px) {
     .about-container .grid-container .profile-container {
         grid-column: auto;
     }
@@ -501,7 +501,7 @@ body {
     gap: 15px;
 }
 
-@media (max-width: 798px) {
+@media (max-width: 1500px) {
     .contact-container .grid-container {
         grid-template-columns: 1fr;
     }
@@ -522,7 +522,7 @@ body {
     align-items: center;
 }
 
-@media (max-width: 798px) {
+@media (max-width: 1500px) {
     .contact-container .grid-container .main-container {
         grid-column: auto;
     }
