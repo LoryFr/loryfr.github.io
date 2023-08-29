@@ -572,6 +572,9 @@ body {
     background-color: #111;
     display: grid;
     place-content: center;
+    background-image: url(assets/img/logo/logo-stroke.svg);
+    background-position: center;
+    background-size: 256px;
 }
 
 .contact-container .grid-container .social-container .flex-container {
@@ -589,6 +592,7 @@ body {
 /* Noise Generator */
 
 .noise {
+    display: none;
     position: fixed;
     top: -50%;
     left: -50%;
