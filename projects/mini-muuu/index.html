@@ -15,28 +15,26 @@
     <!-- Style -->
     <style>
         .project-container {
-            background-color: black;
             padding: 110px 100px;
             min-height: 100vh;
-            padding-top: 400px;
+            color: white;
+            position: relative;
         }
         @media (max-width: 798px) {
             .project-container {
                 padding: 110px 30px;
-                padding-top: 400px;
             }
         }
         .project-cover {
-            position: absolute;
-            width: 100%;
-            height: 400px;
-            background-image: url(cover.jpg);
+            position: fixed;
+            background: url(cover.jpg) center no-repeat;
             background-size: cover;
-            background-position: center;
+            width: 100%;
+            height: 100%;
         }
         .project-cover .filter {
+            height: 100%;
             background-color: black;
-            height: 400px;
             opacity: 0.5;
         }
     </style>
@@ -72,11 +70,9 @@
         <div class="project-cover">
             <div class="filter"></div>
         </div>
-        <div class="project-container">
-        </div>
+        <div class="project-container"></div>
     </main>
     <!-- /Main -->
-    <!-- Noise --> <div class="noise"></div> <!-- /Noise -->
     <!-- Scripts -->
     <script src="../../assets/js/navigation.js"></script>
     <noscript>Your browser does not support JavaScript!</noscript>
