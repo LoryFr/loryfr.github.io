@@ -545,12 +545,16 @@ body {
     margin: 100px;
 }
 
-.contact-container .grid-container .main-container .text h1 {
-    font-size: 3em;
+.contact-container .grid-container .main-container .text h3 {
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
 }
 
 .contact-container .grid-container .main-container .text p {
+    font-size: 1.1em;
     margin: 20px 0;
+    font-weight: 400;
     max-width: 700px;
 }
 
@@ -574,10 +578,13 @@ body {
 
 @media (max-width: 798px) {
     .contact-container .grid-container .main-container .text {
-    margin: 30px;
+        margin: 30px;
     }
-    .contact-container .grid-container .main-container .text h1 {
-    font-size: 2em;
+    .contact-container .grid-container .main-container .text h3 {
+        font-size: 1.5em;
+    }
+    .contact-container .grid-container .main-container .text p {
+        font-size: 1em;
     }
     .contact-container .grid-container .main-container .text a {
         font-size: 0.8em;
