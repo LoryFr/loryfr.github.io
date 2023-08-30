@@ -547,11 +547,16 @@ body {
 
 .contact-container .grid-container .main-container .text h1 {
     font-size: 3em;
-    margin-bottom: 20px;
+}
+
+.contact-container .grid-container .main-container .text p {
+    margin: 20px 0;
+    max-width: 700px;
 }
 
 .contact-container .grid-container .main-container a {
     font-size: 1em;
+    display: inline-block;
     background-color: #12192c;
     padding: 10px 30px;
     text-decoration: none;
