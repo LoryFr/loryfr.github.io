@@ -106,6 +106,7 @@ body {
     left: 0;
     width: 100%;
     padding: 30px 100px;
+    z-index: 1;
 }
 
 .content header img {
