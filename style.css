@@ -162,6 +162,12 @@ body {
     opacity: 0.7;
 }
 
+@media (max-width: 798px) {
+    .black-filter {
+        opacity: 0.5;
+    }
+}
+
 .hero-container {
     width: 100%;
     min-height: 100vh;
