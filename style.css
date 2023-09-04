@@ -618,4 +618,61 @@ body {
     transform: translateX(15px);
 }
 
+.contact-container .grid-container .form-container {
+    grid-column: 1;
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-container .grid-container .form-container form {
+    margin: 60px;
+}
+
+.contact-container .grid-container .form-container .form-group {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 798px) {
+    .contact-container .grid-container .form-container form {
+        margin: 30px;
+    }
+}
+
+.contact-container .grid-container .form-container .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-container .grid-container .form-container .form-group input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-container .grid-container .form-container .form-group textarea {
+    height: 150px;
+}
+
+.contact-container .grid-container .form-container button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-container .grid-container .form-container button:hover {
+    background-color: #0056b3;
+}
+
 /* /Contact Me Page */
