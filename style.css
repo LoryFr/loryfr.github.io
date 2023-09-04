@@ -659,6 +659,7 @@ body {
     background-color: #222;
     border-radius: 5px;
     box-shadow: var(--box-shadow);
+    color: white;
 }
 
 .contact-container .grid-container .form-container .form-group textarea {
