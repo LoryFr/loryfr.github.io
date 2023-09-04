@@ -532,7 +532,7 @@ body {
     box-shadow: var(--box-shadow);
     width: 100%;
     height: 100%;
-    background-image: url(assets/img/logo/contact.jpg);
+    background-image: url(assets/img/logo/contact2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -678,6 +678,22 @@ body {
 
 .contact-container .grid-container .form-container button:hover {
     background-color: #0056b3;
+}
+
+.contact-container .grid-container .image-container {
+    grid-column: 2 / span 2;
+    background-image: url(assets/img/logo/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 798px) {
+    .contact-container .grid-container .image-container {
+        grid-column: auto;
+    }
 }
 
 /* /Contact Me Page */
