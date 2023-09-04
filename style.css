@@ -541,9 +541,9 @@ body {
     align-items: center;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 798px) {
     .contact-container .grid-container .main-container {
-        grid-column: auto;
+        background-image: url(assets/img/logo/contact.jpg);
     }
 }
 
@@ -691,6 +691,15 @@ body {
 }
 
 @media (max-width: 798px) {
+    .contact-container .grid-container .image-container {
+        background-image: url(assets/img/logo/contact2.jpg);
+    }
+}
+
+@media (max-width: 1500px) {
+    .contact-container .grid-container .main-container {
+        grid-column: auto;
+    }
     .contact-container .grid-container .image-container {
         grid-column: auto;
     }
