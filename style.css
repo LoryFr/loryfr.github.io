@@ -647,12 +647,16 @@ body {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .contact-container .grid-container .form-container .form-group input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
+    border: 0px solid #007bff;
+    background-color: transparent;
+    background-color: #222;
     border-radius: 5px;
     box-shadow: var(--box-shadow);
 }
