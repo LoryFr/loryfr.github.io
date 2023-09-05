@@ -18,6 +18,14 @@ body {
     background-color: var(--bg-primary);
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFBE0B;
+}
+
 /* Navigation Bar */
 
 .navbar .nav-toggle {
