@@ -321,13 +321,13 @@ body {
 }
 
 .projects-container .projects-grid {
-    column-count: 3;
+    column-count: 4;
     gap: 15px;
 }
 
 @media (max-width: 2000px) {
     .projects-container .projects-grid {
-        column-count: 2;
+        column-count: 3;
     }
 }
 
