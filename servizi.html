@@ -19,10 +19,10 @@
         <a class="logo" href="./"><h1>Studio HiFi Cannella</h1></a>
         <nav>
             <ul class="nav__links">
-                <li><a href="./" style="color: var(--ac-primary);">Home</a></li>
+                <li><a href="./">Home</a></li>
                 <li><a href="./scopri">Scopri di più</a></li>
                 <li><a href="./chisiamo">Chi siamo</a></li>
-                <li><a href="./servizi">Servizi</a></li>
+                <li><a href="./servizi" style="color: var(--ac-primary);">Servizi</a></li>
                 <li><a href="./prodotti">Prodotti</a></li>
                 <li><a href="./brand">Brand</a></li>
                 <li><a href="./contatti">Contatti</a></li>
@@ -33,10 +33,10 @@
     <div id="mobile__menu" class="overlay">
         <a class="close">&times;</a>
         <div class="overlay__content">
-            <a href="./" style="color: var(--ac-primary);">Home</a>
+            <a href="./">Home</a>
             <a href="./scopri">Scopri di più</a>
             <a href="./chisiamo">Chi siamo</a>
-            <a href="./servizi">Servizi</a>
+            <a href="./servizi" style="color: var(--ac-primary);">Servizi</a>
             <a href="./prodotti">Prodotti</a>
             <a href="./brand">Brand</a>
             <a href="./contatti">Contatti</a>
@@ -44,57 +44,36 @@
     </div>
   </nav>
   <!-- End Navbar -->
-  <!-- Main Content -->
-  <main>
-    <section class="showcase">
-        <div class="text">
-            <h2>Immergiti nell'audio di alta qualità</h2>
-            <h3>scopri il nostro studio HiFi.</h3>
-            <p>Assicuriamo un servizio di alta qualità, personalizzato e affidabile, sia nella riparazione che nella consulenza</p>
-            <a  href="./chisiamo">Scopri chi Siamo</a>
-        </div>
-    </section>
-    <div class="grid-container">
-        <div class="card">
-          <div class="card-content">
-            <h2 class="card-title">Laboratorio</h2>
-            <h3 class="card-subtitle">Ridiamo Vita. Dal 1985</h3>
-            <a href="./scopri" class="card-link">Scopri di più</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <h2 class="card-title">Installazione</h2>
-            <h3 class="card-subtitle">Cio che vuoi. Dove vuoi</h3>
-            <a href="./scopri" class="card-link">Scopri di più</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <h2 class="card-title">Progettazione</h2>
-            <h3 class="card-subtitle">Creiamo Innovazione</h3>
-            <a href="./scopri" class="card-link">Scopri di più</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <h2 class="card-title">Consulenza</h2>
-            <h3 class="card-subtitle">Ti teniamo per mano</h3>
-            <a href="./scopri" class="card-link">Scopri di più</a>
-          </div>
-        </div>
-        <div class="card">
-            <div class="card-content">
-              <h2 class="card-title">Personalizza</h2>
-              <h3 class="card-subtitle">Rinnova il Look</h3>
-              <a href="./scopri" class="card-link">Scopri di più</a>
+    <main>
+        <section class="services-section">
+            <h2 class="section-title">I Nostri Servizi</h2>
+            <div class="services-container">
+                <div class="card">
+                    <span class="icon"><img src="assets/img/servizi/consulenza.svg" alt=""></span>
+                    <h3 class="card-title">Consulenza</h3>
+                    <p class="card-subtitle">Lo Studio Hi-Fi Cannella offre a tutti i clienti un supporto tecnico presso il proprio negozio Mercoledi e Sabato.</p>
+                    <p class="card-subtitle">Riceviamo su appuntamento o per via telefonica gli altri giorni.</p>
+                </div>
+                <div class="card">
+                    <span class="icon"><img src="assets/img/servizi/progettazione.svg" alt=""></span>
+                    <h3 class="card-title">Progettazione</h3>
+                    <p class="card-subtitle">Nella fase progettuale di un impianto semplice o complesso, prestiamo la massima e medesima attenzione affinche il risultato soddisfi e superi le aspettative del cliente, sempre tenendo conto del rapporto qualità-prezzo.</p>
+                </div>
+                <div class="card">
+                    <span class="icon"><img src="assets/img/servizi/installazione.svg" alt=""></span>
+                    <h3 class="card-title">Installazione Audio-Video</h3>
+                    <p class="card-subtitle">Una particolare attenzione dello Studio è quella di eseguire i lavori senza tralasciare alcun dettaglio.</p>
+                    <p class="card-subtitle">Questo porta ad una sicurezza e durevolezza di ogni singolo impianto audio, multiroom e home theatre realizzato.</p>
+                </div>
+                <div class="card">
+                    <span class="icon"><img src="assets/img/servizi/personalizzazione.svg" alt=""></span>
+                    <h3 class="card-title">Personalizzazione</h3>
+                    <p class="card-subtitle">Trasformiamo e modifichiamo l'aspetto estetico dei vostri vecchi diffusori in linee più moderne.</p>
+                </div>
             </div>
-        </div>
-    </div>
-  </main>
-  <!-- End Main Content -->
-  <!-- Footer -->
-  <footer class="footer">
+        </section>    
+    </main>
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="footer-col">
@@ -132,8 +111,7 @@
           </div>
         </div>
       </div>
-  </footer>
-  <!-- End Footer -->
+    </footer>
   <!-- Scripts -->
   <noscript>Javascript is not Supported on your Browser</noscript>
   <script type="text/javascript" src="assets/js/mobile.js"></script>
