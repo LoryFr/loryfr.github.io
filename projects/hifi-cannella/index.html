@@ -28,7 +28,7 @@
         .project-cover {
             position: fixed;
             background: url(cover.svg) center;
-            background-size: 128px;
+            background-size: 256px;
             background-color: black;
             width: 100%;
             height: 100%;
@@ -38,30 +38,51 @@
             background-color: black;
             opacity: 0.8;
         }
-        img {
+        .project-container img {
             border-radius: 10px;
-            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
             vertical-align: bottom;
         }
-        .project-container .hero-image {
-            margin-bottom: 15px;
-            background: url(img/img7.jpg) center 10%;
-            background-size: cover;
-            height: 400px;
+        .project-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: auto;
+            gap: 15px;
+        }
+        .project-container .hero-text {
+            grid-column: auto;
+            background-color: #222;
             border-radius: 10px;
             box-shadow: var(--box-shadow);
         }
-        @media (min-width: 1500px) {
-            .project-container .hero-image {
-                height: 600px;
+        .project-container .hero-image {
+            grid-column: 2 / span 2;
+            box-shadow: var(--box-shadow);
+        }
+        .project-container .image-item {
+            grid-column: 1 / span 2;
+        }
+        .project-container .text-item {
+            grid-column: 3;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
+        @media (max-width: 1500px) {
+            .project-container {
+                grid-template-columns: 1fr;
             }
-        }
-        .project-container .image-grid {
-            column-count: 2;
-            gap: 15px;
-        }
-        .project-container .image-grid img {
-            margin-bottom: 15px;
+            .project-container .hero-image {
+                grid-column: auto;
+            }
+            .project-container .text-item {
+                grid-column: auto;
+            }
+            .project-container .image-item {
+                grid-column: auto;
+            }
         }
     </style>
     <!-- /Style -->
@@ -97,15 +118,12 @@
             <div class="filter"></div>
         </div>
         <div class="project-container">
-            <div class="hero-image"></div>
-            <div class="image-grid">
-                <img src="img/img1.jpg" alt="">
-                <img src="img/img2.jpg" alt="">
-                <img src="img/img3.jpg" alt="">
-                <img src="img/img4.jpg" alt="">
-                <img src="img/img5.jpg" alt="">
-                <img src="img/img8.jpg" alt="">
+            <div class="hero-text"></div>
+            <div class="hero-image"><img src="img/img7.jpg" alt=""></div>
+            <div class="image-item">
+                <img src="img/img1.jpg" alt="hifi cannella design by lorenzo fiori">
             </div>
+            <div class="text-item"></div>
         </div>
     </main>
     <!-- /Main -->
