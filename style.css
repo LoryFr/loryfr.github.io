@@ -23,7 +23,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #FFBE0B;
+    background-color: #3A86FF;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-primary);
 }
 
 /* Navigation Bar */
