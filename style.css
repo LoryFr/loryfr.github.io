@@ -35,7 +35,7 @@ body {
     margin: 30px 100px;
     width: 50px;
     height: 50px;
-    background: url(assets/icons/menu.svg);
+    background: url(/assets/icons/menu.svg);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .navbar .nav-toggle.active {
-    background: url(assets/icons/close.svg);
+    background: url(/assets/icons/close.svg);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
@@ -184,7 +184,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(43deg, #FFBE0B 0%, #FB5607 50%, #FF006E 75%, #8338EC 95%, #3A86FF 100%);
-    background-image: url("assets/img/logo/wallpaper.jpg");
+    background-image: url("/assets/img/logo/wallpaper.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -452,7 +452,7 @@ body {
     box-shadow: var(--box-shadow);
     width: 100%;
     height: 100%;
-    background-image: url(assets/img/about/profile.jpg);
+    background-image: url(/assets/img/about/profile.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -492,7 +492,7 @@ body {
     box-shadow: var(--box-shadow);
     color: white;
     background-color: #111;
-    background-image: url(assets/img/logo/logo-stroke.svg);
+    background-image: url(/assets/img/logo/logo-stroke.svg);
     background-position: center;
     background-size: 256px;
 }
@@ -547,7 +547,7 @@ body {
     box-shadow: var(--box-shadow);
     width: 100%;
     height: 100%;
-    background-image: url(assets/img/logo/contact2.jpg);
+    background-image: url(/assets/img/logo/contact2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -558,7 +558,7 @@ body {
 
 @media (max-width: 798px) {
     .contact-container .grid-container .main-container {
-        background-image: url(assets/img/logo/contact.jpg);
+        background-image: url(/assets/img/logo/contact.jpg);
     }
 }
 
@@ -618,7 +618,7 @@ body {
     background-color: #111;
     display: grid;
     place-content: center;
-    background-image: url(assets/img/logo/logo-stroke.svg);
+    background-image: url(/assets/img/logo/logo-stroke.svg);
     background-position: center;
     background-size: 256px;
 }
@@ -697,7 +697,7 @@ body {
 
 .contact-container .grid-container .image-container {
     grid-column: 2 / span 2;
-    background-image: url(assets/img/logo/contact.jpg);
+    background-image: url(/assets/img/logo/contact.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -707,7 +707,7 @@ body {
 
 @media (max-width: 798px) {
     .contact-container .grid-container .image-container {
-        background-image: url(assets/img/logo/contact2.jpg);
+        background-image: url(/assets/img/logo/contact2.jpg);
     }
 }
 
