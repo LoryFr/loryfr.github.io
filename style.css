@@ -425,6 +425,10 @@ body {
     pointer-events: none;
 }
 
+.gallery-container .gallery-grid .gallery-item a {
+    pointer-events: none;
+}
+
 /* /Gallery Page */
 
 /* About Page */
