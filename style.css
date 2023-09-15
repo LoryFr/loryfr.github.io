@@ -271,7 +271,6 @@ body {
 @media (max-width: 798px) {
     .hero-container {
         padding: 50px;
-        background-position: -600px center;
     }
 
     .hero-container header {
