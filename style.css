@@ -181,7 +181,7 @@ body {
 
 .hero-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
