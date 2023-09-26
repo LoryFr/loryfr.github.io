@@ -16,6 +16,16 @@
     <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Graphic Design, Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
     <meta name="robots" content="NoAI">
     <!-- /SEO -->
+            <!-- ScrollReveal -->
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <script>
+                ScrollReveal({
+                    scale: 0.85,
+                    duration: 1000,
+                    reset: true,
+                });
+            </script>
+            <!-- /ScrollReveal -->
 </head>
 <body>
     <!-- Navigation -->
@@ -70,21 +80,13 @@
     <!-- /Main -->
     <!-- Scripts -->
     <script src="/assets/js/navigation.js"></script>
-        <!-- ScrollReveal -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script>
-            ScrollReveal().reveal('.gallery-item', {
-                delay: 500,
-                useDelay: 'onload',
-                reset: true,
-            })
-
-            ScrollReveal().reveal('.gallery-item:first-child', {
-                delay: 0,
-                interval: 80
-            })
-        </script>
-        <!-- /ScrollReveal -->
+    <script>
+        ScrollReveal().reveal('.content', { delay: 50 })
+        ScrollReveal().reveal('header', { delay: 50 })
+        ScrollReveal().reveal('.content menu', { delay: 50 })
+        ScrollReveal().reveal('.navbar .nav-toggle', { delay: 50 })
+        ScrollReveal().reveal('.gallery-item', { delay: 50 })
+    </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
 </body>
