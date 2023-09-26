@@ -57,7 +57,6 @@ body {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     z-index: 100;
-    transition: var(--transition-speed);
 }
 
 .navbar .nav-toggle.active {
@@ -70,6 +69,12 @@ body {
     right: +100px;
     position: fixed;
     transition: var(--transition-speed);
+}
+
+@media (min-width: 798px) {
+    .navbar .nav-toggle {
+        transition: var(--transition-speed);
+    }
 }
 
 .navbar .nav-menu {
