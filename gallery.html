@@ -70,6 +70,21 @@
     <!-- /Main -->
     <!-- Scripts -->
     <script src="/assets/js/navigation.js"></script>
+        <!-- ScrollReveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal().reveal('.gallery-item', {
+                delay: 500,
+                useDelay: 'onload',
+                reset: true,
+            })
+
+            ScrollReveal().reveal('.gallery-item:first-child', {
+                delay: 0,
+                interval: 80
+            })
+        </script>
+        <!-- /ScrollReveal -->
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
 </body>
