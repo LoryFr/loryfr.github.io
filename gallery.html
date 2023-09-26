@@ -83,7 +83,15 @@
         ScrollReveal().reveal('header img');
         ScrollReveal().reveal('.content menu');
         ScrollReveal().reveal('.navbar .nav-toggle');
-        ScrollReveal().reveal('.gallery-item');
+        ScrollReveal().reveal('.gallery-item', {
+            delay: 500,
+            useDelay: 'onload',
+            reset: true,
+        })
+        ScrollReveal().reveal('.gallery-item:first-child', {
+            delay: 0,
+            interval: 80
+        })
     </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->

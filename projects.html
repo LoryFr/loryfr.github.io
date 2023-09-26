@@ -71,7 +71,15 @@
         ScrollReveal().reveal('header img');
         ScrollReveal().reveal('.content menu');
         ScrollReveal().reveal('.navbar .nav-toggle');
-        ScrollReveal().reveal('.projects-item');
+        ScrollReveal().reveal('.projects-item', {
+            delay: 500,
+            useDelay: 'onload',
+            reset: true,
+        })
+        ScrollReveal().reveal('.projects-item:first-child', {
+            delay: 0,
+            interval: 80,
+        })
     </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
