@@ -93,6 +93,14 @@
             interval: 80
         })
     </script>
+    <script>
+        window.onload = function() {
+            if(!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+    </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
 </body>
