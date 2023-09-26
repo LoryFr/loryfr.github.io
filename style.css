@@ -16,11 +16,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
-    transition: var(--transition-speed);
 }
 
 body {
     background-color: var(--bg-primary);
+    transition: var(--transition-speed);
 }
 
 ::-webkit-scrollbar {
@@ -36,6 +36,10 @@ body {
 }
 
 /* Navigation Bar */
+
+.navbar {
+    transition: var(--transition-speed);
+}
 
 .navbar .nav-toggle {
     position: absolute;
@@ -53,6 +57,7 @@ body {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     z-index: 100;
+    transition: var(--transition-speed);
 }
 
 .navbar .nav-toggle.active {
@@ -64,6 +69,7 @@ body {
     border: none;
     right: +100px;
     position: fixed;
+    transition: var(--transition-speed);
 }
 
 .navbar .nav-menu {
@@ -81,6 +87,7 @@ body {
 
 .navbar .nav-menu.active {
     right: 0;
+    transition: var(--transition-speed);
 }
 
 .navbar .nav-menu a {
@@ -105,6 +112,10 @@ body {
     .navbar .nav-menu a {
         text-align: right;
     }
+}
+
+.content {
+    transition: var(--transition-speed);
 }
 
 .content.active {
@@ -155,6 +166,7 @@ body {
 .content menu a {
     text-decoration: none;
     color: white;
+    transition: var(--transition-speed);
 }
 
 .content menu a:hover {
@@ -258,6 +270,7 @@ body {
     display: inline-block;
     margin-right: 20px;
     transform: scale(0.8);
+    transition: var(--transition-speed);
 }
 
 .hero-container .social li a img {
@@ -354,7 +367,11 @@ body {
     margin-bottom: 15px;
 }
 
-.projects-container .projects-grid .projects-item:hover {
+.projects-container .projects-grid .projects-item a img {
+    transition: var(--transition-speed);
+}
+
+.projects-container .projects-grid .projects-item a img:hover {
     filter: brightness(0.7);
 }
 
@@ -626,6 +643,10 @@ body {
     background-size: 256px;
 }
 
+.contact-container .grid-container .social-container .flex-container a img {
+    transition: var(--transition-speed);
+}
+
 .contact-container .grid-container .social-container .flex-container {
     display: flex;
     flex-direction: column;
@@ -692,6 +713,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     box-shadow: var(--box-shadow);
+    transition: var(--transition-speed);
 }
 
 .contact-container .grid-container .form-container button:hover {
