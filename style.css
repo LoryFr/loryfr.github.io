@@ -35,6 +35,18 @@ body {
     background-color: var(--bg-primary);
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+html.sr .gallery-item {
+    visibility: hidden;
+}
+
+html.sr .projects-item {
+    visibility: hidden;
+}
+
 /* Navigation Bar */
 
 .navbar {
