@@ -35,6 +35,8 @@ body {
     background-color: var(--bg-primary);
 }
 
+/* ScrollReveal Utilities */
+
 html.sr .load-hidden {
     visibility: hidden;
 }
@@ -62,6 +64,16 @@ html.sr .hero-container .social {
 html.sr .navbar .nav-toggle {
     visibility: hidden;
 }
+
+html.sr .about-container .grid-container {
+    visibility: hidden;
+}
+
+html.sr .contact-container .grid-container {
+    visibility: hidden;
+}
+
+/* /ScrollReveal Utilities */
 
 /* Navigation Bar */
 
