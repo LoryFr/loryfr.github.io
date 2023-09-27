@@ -194,6 +194,9 @@ html.sr .navbar .nav-toggle {
     align-items: center;
     height: 50px;
     max-width: 1200px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8em;
 }
 
 .content menu a {
