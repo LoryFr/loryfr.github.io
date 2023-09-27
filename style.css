@@ -81,6 +81,7 @@ html.sr .navbar .nav-toggle {
     background-size: 25px;
     background-position: center;
     background-color: var(--bg-primary);
+    background-color: white;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
@@ -197,6 +198,7 @@ html.sr .navbar .nav-toggle {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.8em;
+    font-weight: 600;
 }
 
 .content menu a {
