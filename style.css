@@ -47,6 +47,22 @@ html.sr .projects-item {
     visibility: hidden;
 }
 
+html.sr header {
+    visibility: hidden;
+}
+
+html.sr .hero-container .text {
+    visibility: hidden;
+}
+
+html.sr .hero-container .social {
+    visibility: hidden;
+}
+
+html.sr .navbar .nav-toggle {
+    visibility: hidden;
+}
+
 /* Navigation Bar */
 
 .navbar {
