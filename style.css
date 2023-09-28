@@ -214,7 +214,7 @@ html.sr .contact-container .grid-container {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.8em;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .content menu a {
@@ -242,7 +242,7 @@ html.sr .contact-container .grid-container {
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0;
 }
 
 .hero-container {
@@ -361,7 +361,7 @@ html.sr .contact-container .grid-container {
         font-size: 0.8em;
     }
     .black-filter {
-        opacity: 0.1;
+        opacity: 0.3;
     }
 }
 
