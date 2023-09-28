@@ -361,7 +361,7 @@ html.sr .contact-container .grid-container {
         font-size: 0.8em;
     }
     .black-filter {
-        opacity: 0.3;
+        opacity: 0;
     }
 }
 
