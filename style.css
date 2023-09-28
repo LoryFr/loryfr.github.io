@@ -49,7 +49,11 @@ html.sr .projects-item {
     visibility: hidden;
 }
 
-html.sr header {
+html.sr .content header {
+    visibility: hidden;
+}
+
+html.sr .content menu {
     visibility: hidden;
 }
 
