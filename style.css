@@ -429,6 +429,12 @@ html.sr .contact-container .grid-container {
     filter: brightness(0.7);
 }
 
+@media (hover:none) {
+    .projects-container .projects-grid .projects-item a img:hover {
+    filter: none;
+    }
+}
+
 .projects-container .projects-grid .projects-item img {
     width: 100%;
     border-radius: 10px;
