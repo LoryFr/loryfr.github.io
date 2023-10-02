@@ -57,6 +57,10 @@ html.sr .content menu {
     visibility: hidden;
 }
 
+html.sr .hero-container {
+    visibility: hidden;
+}
+
 html.sr .hero-container .text {
     visibility: hidden;
 }
