@@ -61,6 +61,10 @@ html.sr .hero-container .text {
     visibility: hidden;
 }
 
+html.sr .hero-container .logo {
+    visibility: hidden;
+}
+
 html.sr .hero-container .social {
     visibility: hidden;
 }
