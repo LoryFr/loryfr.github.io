@@ -82,12 +82,27 @@
     <!-- Scripts -->
     <script src="/assets/js/navigation.js"></script>
     <script>
-        ScrollReveal().reveal('header');
-        ScrollReveal().reveal('.content menu');
-        ScrollReveal().reveal('.navbar .nav-toggle');
-        ScrollReveal().reveal('.content .hero-container .text');
-        ScrollReveal().reveal('.content .hero-container .social');
-        ScrollReveal().reveal('.content .hero-container .logo img');
+        ScrollReveal().reveal('header', {
+            delay: 200,
+        });
+        ScrollReveal().reveal('.content menu' , {
+            delay: 400,
+        });
+        ScrollReveal().reveal('.navbar .nav-toggle' , {
+            delay: 500,
+        });
+        ScrollReveal().reveal('.content .hero-container' , {
+            delay: 0,
+        });
+        ScrollReveal().reveal('.content .hero-container .text' , {
+            delay: 300,
+        });
+        ScrollReveal().reveal('.content .hero-container .social' , {
+            delay: 600,
+        });
+        ScrollReveal().reveal('.content .hero-container .logo img' , {
+            delay: 100,
+        });
     </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
