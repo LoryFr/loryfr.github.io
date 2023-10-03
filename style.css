@@ -53,6 +53,13 @@ html.sr .content header {
     visibility: hidden;
 }
 
+html.sr .content header img {
+    visibility: hidden;
+}
+html.sr .content header h2 {
+    visibility: hidden;
+}
+
 html.sr .content menu {
     visibility: hidden;
 }
