@@ -191,8 +191,13 @@ html.sr .contact-container .grid-container {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 40px 100px;
     z-index: 1;
+    color: white;
+}
+
+.content header a {
+    text-decoration: none;
     color: white;
 }
 
@@ -204,15 +209,6 @@ html.sr .contact-container .grid-container {
 @media(max-width: 798px) {
     .content header {
         padding: 40px 50px;
-    }
-    .content header img {
-        display: none;
-    }
-}
-
-@media (min-width: 798px) {
-    .content header h2 {
-        display: none;
     }
 }
 
