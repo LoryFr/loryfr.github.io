@@ -193,6 +193,7 @@ html.sr .contact-container .grid-container {
     width: 100%;
     padding: 30px 100px;
     z-index: 1;
+    color: white;
 }
 
 .content header img {
@@ -202,7 +203,16 @@ html.sr .contact-container .grid-container {
 
 @media(max-width: 798px) {
     .content header {
-        padding: 30px 50px;
+        padding: 40px 50px;
+    }
+    .content header img {
+        display: none;
+    }
+}
+
+@media (min-width: 798px) {
+    .content header h2 {
+        display: none;
     }
 }
 
@@ -273,6 +283,12 @@ html.sr .contact-container .grid-container {
     left: 0;
     width: 100%;
     padding: 40px 100px;
+}
+
+@media (min-width: 798px) {
+    .hero-container header h2 {
+        display: block;
+    }
 }
 
 .hero-container .text {
