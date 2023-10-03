@@ -4,11 +4,9 @@
     --transition-speed: 200ms ease-out;
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --bg-primary: #12192c;
-    --color-palette-yellow: #FFBE0B;
-    --color-palette-orange: #FB5607;
-    --color-palette-magenta: #FF006E;
-    --color-palette-purple: #8338EC;
-    --color-palette-blue: #3A86FF;
+    --ac-primary: #4158D0;
+    --ac-secondary: #FB5607;
+    --ac-tertiary: #FFCC70;
 }
 
 * {
@@ -238,7 +236,7 @@ html.sr .contact-container .grid-container {
 }
 
 .content menu a:hover {
-    color: #FB5607;
+    color: var(--ac-primary);
 }
 
 @media (max-width: 1200px) {
@@ -316,7 +314,7 @@ html.sr .contact-container .grid-container {
     background-color: var(--bg-primary);
     padding: 10px 30px;
     text-decoration: none;
-    color: var(--color-palette-orange);
+    color: var(--ac-secondary);
     letter-spacing: 2px;
     transition: var(--transition-speed);
     border-radius: 10px;
@@ -681,7 +679,7 @@ html.sr .contact-container .grid-container {
     background-color: #12192c;
     padding: 10px 30px;
     text-decoration: none;
-    color: var(--color-palette-orange);
+    color: var(--ac-secondary);
     letter-spacing: 2px;
     transition: var(--transition-speed);
     border-radius: 10px;
