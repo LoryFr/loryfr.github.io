@@ -152,6 +152,7 @@ html.sr .contact-container .grid-container {
     color: white;
     border-radius: 10px;
     margin: 10px 50px;
+    transition: var(--transition-speed);
 }
 
 .navbar .nav-menu a:hover {
