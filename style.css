@@ -6,7 +6,7 @@
     --bg-primary: #12192c;
     --ac-primary: #4158D0;
     --ac-secondary: #FB5607;
-    --ac-tertiary: #FFCC70;
+    --ac-tertiary: ;
 }
 
 * {
@@ -593,9 +593,6 @@ html.sr .contact-container .grid-container {
     box-shadow: var(--box-shadow);
     color: white;
     background-color: #111;
-    background-image: url(/assets/img/logo/logo-stroke.svg);
-    background-position: center;
-    background-size: 256px;
 }
 
 .about-container .grid-container .tech-container .icons-container {
@@ -671,7 +668,7 @@ html.sr .contact-container .grid-container {
 }
 
 .contact-container .grid-container .main-container .text h3 {
-    font-size: 48px;
+    font-size: 4em;
     font-weight: 700;
     line-height: 1em;
 }
@@ -679,8 +676,8 @@ html.sr .contact-container .grid-container {
 .contact-container .grid-container .main-container .text p {
     font-size: 1.1em;
     margin: 20px 0;
-    font-weight: 600;
-    max-width: 500px;
+    font-weight: 400;
+    max-width: 700px;
 }
 
 .contact-container .grid-container .main-container a {
@@ -706,7 +703,7 @@ html.sr .contact-container .grid-container {
         margin: 30px;
     }
     .contact-container .grid-container .main-container .text h3 {
-        font-size: 32px;
+        font-size: 1.5em;
     }
     .contact-container .grid-container .main-container .text p {
         font-size: 1em;
@@ -722,9 +719,6 @@ html.sr .contact-container .grid-container {
     background-color: #111;
     display: grid;
     place-content: center;
-    background-image: url(/assets/img/logo/logo-stroke.svg);
-    background-position: center;
-    background-size: 256px;
 }
 
 .contact-container .grid-container .social-container .flex-container a img {
@@ -733,12 +727,18 @@ html.sr .contact-container .grid-container {
 
 .contact-container .grid-container .social-container .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
 }
 
+@media (max-width: 798px) {
+    .contact-container .grid-container .social-container .flex-container {
+        flex-direction: column;
+    }
+}
+
 .contact-container .grid-container .social-container .flex-container img:hover {
-    transform: translateX(15px);
+    transform: translateY(-5px);
 }
 
 .contact-container .grid-container .form-container {
