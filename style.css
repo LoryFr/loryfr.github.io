@@ -155,7 +155,7 @@ html.sr .contact-container .grid-container {
 }
 
 .navbar .nav-menu a:hover {
-    opacity: 0.5;
+    color: var(--ac-primary);
 }
 
 @media (max-width: 798px) {
