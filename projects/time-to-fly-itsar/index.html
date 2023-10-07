@@ -26,6 +26,8 @@
         }
         .project-container .video-wrapper {
             position: relative;
+            overflow: hidden;
+            height: 0;
             padding-bottom: 56.25%;
         }
         .project-container .video-wrapper iframe {
@@ -36,6 +38,10 @@
             height: 100%;
             border-radius: 10px;
             box-shadow: var(--box-shadow);
+        }
+        .project-container .video-container {
+            max-width: 1200px;
+            margin: auto;
         }
     </style>
     <!-- /Style -->
@@ -68,8 +74,10 @@
         </menu>
         <!-- /Header -->
         <div class="project-container">
-            <div class="video-wrapper">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kn9xExwiD3g?si=otcfIcFyzh8qrLHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kn9xExwiD3g?si=otcfIcFyzh8qrLHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </main>
