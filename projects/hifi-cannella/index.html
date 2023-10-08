@@ -35,73 +35,32 @@
             opacity: 0;
         }
         .project-container img {
-            border-radius: 10px;
             width: 100%;
-            height: 100%;
-            object-fit: cover;
             vertical-align: bottom;
         }
-        .project-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-auto-rows: auto;
+        .project-masonry {
+            column-count: 4;
             gap: 15px;
         }
-        .project-container .hero-text {
-            grid-column: auto;
-            background-color: #111;
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-            padding: 50px;
-        }
-        .project-container .hero-image {
-            grid-column: 2 / span 2;
-            box-shadow: var(--box-shadow);
-        }
-        .project-container .image-item {
-            grid-column: 1 / span 2;
-            box-shadow: var(--box-shadow);
-        }
-        .project-container .text-item {
-            grid-column: 3;
-            background-color: #111;
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-            padding: 50px;
-        }
-        @media (max-width: 798px) {
-            .project-container .hero-text {
-                padding: 50px 25px;
+        @media (max-width: 2000px) {
+            .project-container .project-masonry {
+                column-count: 3;
             }
-            .project-container .text-item {
-                padding: 50px 25px;
-            }
-        }
-        .project-container .image-grid {
-            column-count: 2;
-            grid-column: 1 / span 3;
-        }
-        .project-container .image-grid img {
-            margin-bottom: 15px;
-            height: auto;
         }
         @media (max-width: 1500px) {
-            .project-container {
-                grid-template-columns: 1fr;
+            .project-container .project-masonry {
+                column-count: 2;
             }
-            .project-container .hero-image {
-                grid-column: auto;
-            }
-            .project-container .text-item {
-                grid-column: auto;
-            }
-            .project-container .image-item {
-                grid-column: auto;
-            }
-            .project-container .image-grid {
-                grid-column: auto;
+        }
+        @media (max-width: 1000px) {
+            .project-container .project-masonry {
                 column-count: 1;
             }
+        }
+        .project-masonry img {
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
         }
     </style>
     <!-- /Style -->
@@ -137,28 +96,17 @@
             <div class="filter"></div>
         </div>
         <div class="project-container">
-            <div class="hero-text">
-                <h1 style="margin-bottom: 25px;">Studio HiFi Cannella</h1>
-                <h3 style="margin: 25px 0; text-transform: uppercase;">Full Website Redesign</h3>
-                <hr>
-                <p style="margin: 25px 0;">The website of HiFi Cannella, one of the few remaining studios of its kind, was in need of a redesign.</p>
-                <p>The brief was to create a layout that is easily understandable for all users, modern, and geared towards the new generations.</p>
-            </div>
-            <div class="hero-image"><img src="img/img7.jpg" alt=""></div>
-            <div class="image-item"><img src="img/img6.jpg" alt="hifi cannella design by lorenzo fiori"></div>
-            <div class="text-item">
-                <h3 style="margin: 25px 0; text-transform: uppercase;">Design Process</h3>
-                <hr>
-                <p style="margin: 25px 0;">Before proceeding with actual development, I designed wireframes with Affinity Designer, representing the web page structure and the placement of key elements. This allowed me to visualize the project early on and enabled the client to provide initial feedback.</p>
-                <p>I paid particular attention to designing the user interface (UI), ensuring the design was visually appealing, intuitive, and consistent with the client's brand. I selected colors, typography, and visual elements in line with the desired style.</p>
-            </div>
-            <div class="image-grid">
-                <img src="img/img2.jpg" alt="">
-                <img src="img/img3.jpg" alt="">
-                <img src="img/img4.jpg" alt="">
-                <img src="img/img5.jpg" alt="">
-                <img src="img/img1.jpg" alt="">
-                <img src="img/img8.jpg" alt="">
+            <div class="project-masonry">
+                <img src="img/1.webp" alt="">
+                <img src="img/2.webp" alt="">
+                <img src="img/3.webp" alt="">
+                <img src="img/4.webp" alt="">
+                <img src="img/5.webp" alt="">
+                <img src="img/6.webp" alt="">
+                <img src="img/7.webp" alt="">
+                <img src="img/8.webp" alt="">
+                <img src="img/9.webp" alt="">
+                <img src="img/10.webp" alt="">
             </div>
         </div>
     </main>
