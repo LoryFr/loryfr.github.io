@@ -62,23 +62,23 @@
             border-radius: 10px;
             box-shadow: var(--box-shadow);
         }
-        .project-text {
-            max-width: 1200px;
-            margin: 40px auto 110px auto;
+        .back-button {
+            position: absolute;
+            bottom: 52.5px;
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8em;
+            font-weight: 700;
+            transition: var(--transition-speed);
+            right: 0;
+            left: 0;
         }
-        @media (max-width: 960px) {
-            .project-text {
-                margin: 40px 20px 110px 20px;
-            }
-        }
-        .project-text hr {
-            margin: 40px auto;
-        }
-        .project-text h1 {
-            font-weight: 300;
-        }
-        .project-text p {
-            margin: 20px 0;
+        .back-button:hover {
+            color: var(--ac-primary);
         }
     </style>
     <!-- /Style -->
@@ -114,16 +114,6 @@
             <div class="filter"></div>
         </div>
         <div class="project-container">
-            <div class="project-text">
-                <h1>HiFi Cannella</h1>
-                <hr>
-                <h3>Full Website Redesign</h3>
-                <hr>
-                <p>The website of HiFi Cannella, one of the few remaining studios of its kind, was in need of a redesign.</p>
-                <p>The brief was to create a layout that is easily understandable for all users, modern, and geared towards the new generations.</p>
-                <p>Before proceeding with actual development, I designed wireframes with Affinity Designer, representing the web page structure and the placement of key elements. This allowed me to visualize the project early on and enabled the client to provide initial feedback.</p>
-                <p>I paid particular attention to designing the user interface, ensuring the design was visually appealing, intuitive, and consistent with the client's brand. I selected colors, typography, and visual elements in line with the desired style.</p>
-            </div>
             <div class="project-masonry">
                 <img src="img/1.webp" alt="">
                 <img src="img/2.webp" alt="">
@@ -136,6 +126,7 @@
                 <img src="img/9.webp" alt="">
                 <img src="img/10.webp" alt="">
             </div>
+            <a href="/projects" class="back-button">Back to Projects</a>
         </div>
     </main>
     <!-- /Main -->

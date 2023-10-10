@@ -43,6 +43,24 @@
             max-width: 1200px;
             margin: auto;
         }
+        .back-button {
+            position: absolute;
+            bottom: 52.5px;
+            margin: auto;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8em;
+            font-weight: 700;
+            transition: var(--transition-speed);
+            right: 0;
+            left: 0;
+        }
+        .back-button:hover {
+            color: var(--ac-primary);
+        }
     </style>
     <!-- /Style -->
 </head>
@@ -79,6 +97,7 @@
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kn9xExwiD3g?si=otcfIcFyzh8qrLHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
+            <a href="/projects" class="back-button">Back to Projects</a>
         </div>
     </main>
     <!-- /Main -->
