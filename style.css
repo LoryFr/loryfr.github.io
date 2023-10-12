@@ -219,15 +219,13 @@ html.sr .contact-container .grid-container {
     z-index: 1;
     position: absolute;
     top: 30px;
-    right: 0;
-    left: 0;
+    right: 200px;
     margin: auto;
     display: flex;
     gap: 15px;
     justify-content: center;
     align-items: center;
     height: 50px;
-    max-width: 1200px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.8em;
