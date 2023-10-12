@@ -262,7 +262,7 @@ html.sr .contact-container .grid-container {
     background-image: url(/assets/img/logo/wallpaper.webp), linear-gradient(to right bottom, #4158d0, #2c49a5, #1e397b, #172952, #12192c);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
     color: #fff;
 }
 
