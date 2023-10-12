@@ -321,7 +321,7 @@ html.sr .contact-container .grid-container {
     background-color: var(--bg-primary);
     padding: 10px 30px;
     text-decoration: none;
-    color: var(--ac-secondary);
+    color: var(--ac-primary);
     letter-spacing: 2px;
     transition: var(--transition-speed);
     border-radius: 10px;
@@ -418,13 +418,13 @@ html.sr .contact-container .grid-container {
 }
 
 .projects-container .projects-grid {
-    column-count: 4;
+    column-count: 5;
     gap: 15px;
 }
 
 @media (max-width: 2000px) {
     .projects-container .projects-grid {
-        column-count: 3;
+        column-count: 4;
     }
 }
 

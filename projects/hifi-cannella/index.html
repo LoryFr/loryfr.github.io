@@ -62,23 +62,27 @@
             border-radius: 10px;
             box-shadow: var(--box-shadow);
         }
-        .back-button {
+        footer {
             position: absolute;
+            right: 0;
+            left: 0;
             bottom: 52.5px;
             margin: auto;
             text-align: center;
+        }
+        .back-button {
             text-decoration: none;
-            color: white;
+            color: var(--ac-primary);
             text-transform: uppercase;
             letter-spacing: 2px;
-            font-size: 0.8em;
-            font-weight: 700;
+            font-size: 1em;
             transition: var(--transition-speed);
-            right: 0;
-            left: 0;
+            padding: 10px 30px;
+            background-color: var(--bg-primary);
+            border-radius: 10px;
         }
         .back-button:hover {
-            color: var(--ac-primary);
+            opacity: 0.5;
         }
     </style>
     <!-- /Style -->
@@ -126,7 +130,7 @@
                 <img src="img/9.webp" alt="">
                 <img src="img/10.webp" alt="">
             </div>
-            <a href="/projects" class="back-button">Back to Projects</a>
+            <footer><a href="/projects" class="back-button">Back to Projects</a></footer>
         </div>
     </main>
     <!-- /Main -->
