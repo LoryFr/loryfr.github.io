@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- SEO -->
+    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
+    <title>Lorenzo Fiori | Contact Me</title>
+    <meta name="author" content="Lorenzo Fiori">
+    <meta name="description" content="Contact Lorenzo Fiori">
+    <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Filmmaker, Graphic Design, UI / UX Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
+    <!-- /SEO -->
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Lorenzo Fiori | Graphic Designer, UI / UX Designer, Colorist, Photographer, Videographer, Filmmaker" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lorenzofiori.art/" />
+    <meta property="og:image" content="https://lorenzofiori.art/assets/img/projects/project-pixelspore.jpg" />
+    <!-- /Open Graph Protocol -->
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            scale: 0.85,
+        });
+    </script>
+    <!-- /ScrollReveal -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-toggle"></div>
+        <div class="nav-menu" translate="no">
+                <a href="/./">Home</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/projects">Projects</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+        </div>
+    </nav>
+    <!-- /Navigation -->
+    <!-- Main -->
+    <main class="content">
+        <h1 style="display: none;">Get in Touch: Contact Lorenzo Fiori</h1>
+        <p style="display: none;">Reach out and connect with Lorenzo Fiori today. Whether you have a creative project in mind or just want to say hello, I'd love to hear from you. Contact us for inquiries, collaborations, or to discuss your creative vision.</p>
+        <!-- Header -->
+        <header>
+            <a href="/./"><h2 translate="no">Lorenzo <span style="color: var(--ac-primary);">Fiori</span></h2></a>
+        </header>
+        <menu translate="no">
+            <a href="/./">Home</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/projects">Projects</a>
+            <a href="/about">About</a>
+            <a href="/contact" style="color: var(--ac-primary);">Contact</a>
+        </menu>
+        <!-- /Header -->
+        <div class="contact-container">
+            <div class="grid-container">
+                <div class="main-container">
+                    <div class="filter"></div>
+                    <div class="text" translate="no">
+                        <h3>Feel Free to Reach Out</h3>
+                        <p>For creative collaborations or any other projects in mind which we can bring to life together, do not hesitate to reach out! Or just to say hi, that works too.</p>
+                        <a href="mailto:lorenzofy@outlook.com">Drop Me An Email</a>
+                    </div>
+                </div>
+                <div class="social-container">
+                    <div class="flex-container">
+                        <a href="mailto:lorenzofy261103@gmail.com" target="_blank"><img src="/assets/icons/social-color/Gmail.svg" alt="gmail logo icon"></a>
+                        <a href="https://www.instagram.com/lory_fr" target="_blank"><img src="/assets/icons/social-color/Instagram.svg" alt="instagram logo icon"></a>
+                        <a href="https://www.linkedin.com/in/lorenzo-fiori-colorist" target="_blank"><img src="/assets/icons/social-color/LinkedIn.svg" alt="linkedin logo icon"></a>
+                        <a href="https://t.me/haiseshikai" target="_blank"><img src="/assets/icons/social-color/Telegram.svg" alt="telegram logo icon"></a>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <form action="https://formsubmit.co/lorenzofy@outlook.com" method="POST">
+                        <div class="form-group">
+                            <label for="nome">Name:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="messaggio">Message:</label>
+                            <textarea id="messaggio" name="messaggio" required></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="image-container"></div>
+            </div>
+        </div>
+    </main>
+    <!-- /Main -->
+    <!-- Scripts -->
+    <script src="/assets/js/navigation.js"></script>
+    <script>
+        ScrollReveal().reveal('header img');
+        ScrollReveal().reveal('header h2');
+        ScrollReveal().reveal('.content menu');
+        ScrollReveal().reveal('.navbar .nav-toggle');
+        ScrollReveal().reveal('.content .grid-container');
+        ScrollReveal().reveal('.content .grid-container .main-container' , {
+            delay: 100,
+        });
+        ScrollReveal().reveal('.content .grid-container .main-container .text' , {
+            delay: 200,
+            distance: '100px',
+        });
+        ScrollReveal().reveal('.content .grid-container .social-container' , {
+            delay: 200,
+        });
+        ScrollReveal().reveal('.content .grid-container .social-container .flex-container a' , {
+            delay: 250,
+            interval: 100,
+            distance: '100px',
+        });
+        ScrollReveal().reveal('.content .grid-container .form-container' , {
+            delay: 300,
+        });
+        ScrollReveal().reveal('.content .grid-container .form-container form' , {
+            delay: 400,
+            distance: '100px',
+        });
+        ScrollReveal().reveal('.content .grid-container .image-container' , {
+            delay: 400,
+        });
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <!-- /Scripts -->
+</body>
+</html>

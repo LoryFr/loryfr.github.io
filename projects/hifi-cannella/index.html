@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- SEO -->
+    <link rel="shortcut icon" href="/assets/icons/favicon.svg" type="image/x-icon">
+    <title>Lorenzo Fiori | HiFi Cannella Website Redesign</title>
+    <meta name="author" content="Lorenzo Fiori">
+    <meta name="description" content="HiFi Cannella Website Redesign">
+    <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Graphic Design, Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
+    <!-- /SEO -->
+    <!-- Style -->
+    <style>
+        .project-container {
+            padding: 110px 100px;
+            min-height: 100vh;
+            color: white;
+            position: relative;
+        }
+        @media (max-width: 798px) {
+            .project-container {
+                padding: 110px 30px;
+            }
+        }
+        .project-cover {
+            position: fixed;
+            background-color: black;
+            width: 100%;
+            height: 100%;
+        }
+        .project-cover .filter {
+            height: 100%;
+            opacity: 0;
+        }
+        .project-container img {
+            width: 100%;
+            vertical-align: bottom;
+        }
+        .project-masonry {
+            column-count: 4;
+            gap: 15px;
+        }
+        @media (max-width: 2000px) {
+            .project-container .project-masonry {
+                column-count: 3;
+            }
+        }
+        @media (max-width: 1500px) {
+            .project-container .project-masonry {
+                column-count: 2;
+            }
+        }
+        @media (max-width: 1000px) {
+            .project-container .project-masonry {
+                column-count: 1;
+            }
+        }
+        .project-masonry img {
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
+        footer {
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 52.5px;
+            margin: auto;
+            text-align: center;
+        }
+        .back-button {
+            text-decoration: none;
+            color: var(--ac-primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 1em;
+            transition: var(--transition-speed);
+            padding: 10px 30px;
+            background-color: var(--bg-primary);
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
+        .back-button:hover {
+            opacity: 0.5;
+        }
+    </style>
+    <!-- /Style -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-toggle"></div>
+        <div class="nav-menu" translate="no">
+                <a href="/./">Home</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/projects">Projects</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+        </div>
+    </nav>
+    <!-- /Navigation -->
+    <!-- Main -->
+    <main class="content">
+        <!-- Header -->
+        <header>
+            <a href="/./"><h2 translate="no">Lorenzo <span style="color: var(--ac-primary);">Fiori</span></h2></a>
+        </header>
+        <menu translate="no">
+            <a href="/./">Home</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/projects">Projects</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </menu>
+        <!-- /Header -->
+        <div class="project-cover">
+            <div class="filter"></div>
+        </div>
+        <div class="project-container">
+            <div class="project-masonry">
+                <img src="img/1.webp" alt="">
+                <img src="img/2.webp" alt="">
+                <img src="img/3.webp" alt="">
+                <img src="img/4.webp" alt="">
+                <img src="img/5.webp" alt="">
+                <img src="img/6.webp" alt="">
+                <img src="img/7.webp" alt="">
+                <img src="img/8.webp" alt="">
+                <img src="img/9.webp" alt="">
+                <img src="img/10.webp" alt="">
+            </div>
+            <footer><a href="/projects" class="back-button">Back to Projects</a></footer>
+        </div>
+    </main>
+    <!-- /Main -->
+    <!-- Scripts -->
+    <script src="/assets/js/navigation.js"></script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <!-- /Scripts -->
+</body>
+</html>

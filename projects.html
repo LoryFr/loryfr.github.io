@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- SEO -->
+    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
+    <title>Lorenzo Fiori | Projects about Graphic Design, UI / UX Design, Color Grading, and More</title>
+    <meta name="author" content="Lorenzo Fiori">
+    <meta name="description" content="Explore the creative talents of Lorenzo Fiori, a Graphic Designer, UI/UX Designer, Colorist, Photographer, Videographer, and Filmmaker, all in one. Elevate your creative projects with Lorenzo's exceptional visual storytelling skills. Dive into his portfolio and unlock the potential of your ideas. Contact Lorenzo Fiori to bring your creative vision to life today.">
+    <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Filmmaker, Graphic Design, UI / UX Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
+    <!-- /SEO -->
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Lorenzo Fiori | Graphic Designer, UI / UX Designer, Colorist, Photographer, Videographer, Filmmaker" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lorenzofiori.art/" />
+    <meta property="og:image" content="https://lorenzofiori.art/assets/img/projects/project-pixelspore.jpg" />
+    <!-- /Open Graph Protocol -->
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            scale: 0.85,
+        });
+    </script>
+    <!-- /ScrollReveal -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-toggle"></div>
+        <div class="nav-menu" translate="no">
+                <a href="/./">Home</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/projects">Projects</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+        </div>
+    </nav>
+    <!-- /Navigation -->
+    <!-- Main -->
+    <main class="content">
+        <h1 style="display: none;">Unveiling Creative Excellence: A Graphic Design Portfolio Showcase</h1>
+        <p style="display: none;">Explore a dynamic showcase of my diverse creative projects, spanning graphic design, photography, color grading, video production, and more. Immerse yourself in a world of visual storytelling and artistic excellence. Discover the breadth of my skills and talents in one place.</p>
+        <!-- Header -->
+        <header>
+            <a href="/./"><h2 translate="no">Lorenzo <span style="color: var(--ac-primary);">Fiori</span></h2></a>
+        </header>
+        <menu translate="no">
+            <a href="/./">Home</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/projects" style="color: var(--ac-primary);">Projects</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </menu>
+        <!-- /Header -->
+        <div class="projects-container">
+            <div class="projects-grid">
+                <div class="projects-item"><a href=""><img src="/assets/img/projects/project-pixelspore.jpg" alt="project cover"></a></div>
+                <div class="projects-item"><a href=""><img src="/assets/img/projects/project-prochronos.jpg" alt="project cover"></a></div>
+                <div class="projects-item"><a href=""><img src="/assets/img/projects/project-minimuuu.jpg" alt="project cover"></a></div>
+                <div class="projects-item"><a href="/projects/hifi-cannella/./"><img src="/assets/img/projects/project-hificannella.webp" alt="project cover"></a></div>
+                <div class="projects-item"><a href="/projects/time-to-fly-itsar/./"><img src="/assets/img/projects/project-time-to-fly-itsrizzoli.jpg" alt="project cover"></a></div>
+            </div>
+        </div>
+    </main>
+    <!-- /Main -->
+    <!-- Scripts -->
+    <script src="/assets/js/navigation.js"></script>
+    <script>
+        ScrollReveal().reveal('header img');
+        ScrollReveal().reveal('header h2');
+        ScrollReveal().reveal('.content menu');
+        ScrollReveal().reveal('.navbar .nav-toggle');
+        ScrollReveal().reveal('.projects-item', {
+            delay: 250,
+            interval: 80,
+            useDelay: 'onload',
+            reset: false,
+            distance: '100px',
+        })
+        ScrollReveal().reveal('.projects-item:first-child', {
+            delay: 0,
+            interval: 80,
+        })
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <!-- /Scripts -->
+</body>
+</html>
