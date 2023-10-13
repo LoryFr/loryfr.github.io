@@ -680,7 +680,7 @@ html.sr .contact-container .grid-container {
     background-color: #12192c;
     padding: 10px 30px;
     text-decoration: none;
-    color: var(--ac-secondary);
+    color: var(--ac-primary);
     letter-spacing: 2px;
     transition: var(--transition-speed);
     border-radius: 10px;
