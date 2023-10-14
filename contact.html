@@ -103,9 +103,12 @@
     <!-- Scripts -->
     <script src="/assets/js/navigation.js"></script>
     <script>
-        ScrollReveal().reveal('header img');
-        ScrollReveal().reveal('header h2');
-        ScrollReveal().reveal('.content menu');
+        ScrollReveal().reveal('header' , {
+            delay: 250,
+        });
+        ScrollReveal().reveal('.content menu' , {
+            delay: 500,
+        });
         ScrollReveal().reveal('.navbar .nav-toggle');
         ScrollReveal().reveal('.content .grid-container');
         ScrollReveal().reveal('.content .grid-container .main-container' , {

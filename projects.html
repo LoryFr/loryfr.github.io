@@ -83,7 +83,7 @@
                     </div>
 
                     <div class="projects-item">
-                        <img src="/assets/img/projects/project-minimuuu.webp" alt="hifi cannella project cover">
+                        <img src="/assets/img/projects/project-minimuuu.webp" alt="team mini muuu project cover">
                         <div class="projects-description">
                             <h3>Visual Identity</h3>
                             <h2>Team Mini Muuu</h2>
@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="projects-item">
-                        <img src="/assets/img/projects/project-prochronos.webp" alt="hifi cannella project cover">
+                        <img src="/assets/img/projects/project-prochronos.webp" alt="prochronos game project cover">
                         <div class="projects-description">
                             <h3>Visual Identity</h3>
                             <h2>Prochronos</h2>
@@ -107,9 +107,12 @@
     <!-- Scripts -->
     <script src="/assets/js/navigation.js"></script>
     <script>
-        ScrollReveal().reveal('header img');
-        ScrollReveal().reveal('header h2');
-        ScrollReveal().reveal('.content menu');
+        ScrollReveal().reveal('header' , {
+            delay: 250,
+        });
+        ScrollReveal().reveal('.content menu' , {
+            delay: 500,
+        });
         ScrollReveal().reveal('.navbar .nav-toggle');
         ScrollReveal().reveal('.projects-item', {
             delay: 250,
