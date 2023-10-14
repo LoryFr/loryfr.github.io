@@ -455,8 +455,16 @@ html.sr .contact-container .grid-container {
     opacity: 0;
 }
 
-@media (max-width: 798px) {
-    
+.projects-description h3 {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.projects-description h2 {
+    font-size: 20px;
 }
 
 .projects-item:hover .projects-description {
