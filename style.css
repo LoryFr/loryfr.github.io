@@ -333,6 +333,10 @@ html.sr .contact-container .grid-container {
     list-style: none;
 }
 
+.hero-container .social li:nth-child(n+4) {
+    display: none;
+}
+
 .hero-container .social li a {
     display: inline-block;
     margin-right: 20px;
