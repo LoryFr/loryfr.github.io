@@ -11,6 +11,15 @@
     <meta name="description" content="HiFi Cannella Website Redesign">
     <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Graphic Design, Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
     <!-- /SEO -->
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            scale: 0.85,
+        });
+    </script>
+    <!-- /ScrollReveal -->
     <!-- Style -->
     <style>
         .project-container {
@@ -37,53 +46,6 @@
         .project-container img {
             width: 100%;
             vertical-align: bottom;
-        }
-        .project-masonry {
-            column-count: 4;
-            gap: 15px;
-        }
-        @media (max-width: 2000px) {
-            .project-container .project-masonry {
-                column-count: 3;
-            }
-        }
-        @media (max-width: 1500px) {
-            .project-container .project-masonry {
-                column-count: 2;
-            }
-        }
-        @media (max-width: 1000px) {
-            .project-container .project-masonry {
-                column-count: 1;
-            }
-        }
-        .project-masonry img {
-            margin-bottom: 15px;
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-        }
-        footer {
-            position: absolute;
-            right: 0;
-            left: 0;
-            bottom: 52.5px;
-            margin: auto;
-            text-align: center;
-        }
-        .back-button {
-            text-decoration: none;
-            color: var(--ac-primary);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 1em;
-            transition: var(--transition-speed);
-            padding: 10px 30px;
-            background-color: var(--bg-primary);
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-        }
-        .back-button:hover {
-            opacity: 0.5;
         }
     </style>
     <!-- /Style -->
@@ -119,24 +81,24 @@
             <div class="filter"></div>
         </div>
         <div class="project-container">
-            <div class="project-masonry">
-                <img src="img/1.webp" alt="">
-                <img src="img/2.webp" alt="">
-                <img src="img/3.webp" alt="">
-                <img src="img/4.webp" alt="">
-                <img src="img/5.webp" alt="">
-                <img src="img/6.webp" alt="">
-                <img src="img/7.webp" alt="">
-                <img src="img/8.webp" alt="">
-                <img src="img/9.webp" alt="">
-                <img src="img/10.webp" alt="">
+            <div class="title">
+                <h1>HiFi Cannella</h1>
+                <p>paragrafo di prova</p>
             </div>
-            <footer><a href="/projects" class="back-button">Back to Projects</a></footer>
         </div>
     </main>
     <!-- /Main -->
     <!-- Scripts -->
     <script src="/assets/js/navigation.js"></script>
+    <script>
+        ScrollReveal().reveal('header' , {
+            delay: 250,
+        });
+        ScrollReveal().reveal('.content menu' , {
+            delay: 500,
+        });
+        ScrollReveal().reveal('.navbar .nav-toggle');
+    </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
 </body>

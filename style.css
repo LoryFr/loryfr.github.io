@@ -434,6 +434,8 @@ html.sr .contact-container .grid-container {
     box-shadow: var(--box-shadow);
     width: 100%;
     overflow: hidden;
+    aspect-ratio: 5 / 4;
+    object-fit: contain;
 }
 
 .projects-container .projects-grid .projects-item a {
@@ -473,9 +475,11 @@ html.sr .contact-container .grid-container {
 
 .projects-container .projects-grid .projects-item img {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     vertical-align: bottom;
     transition: var(--transition-speed);
+    object-fit: cover;
 }
 
 .projects-item:hover img {
