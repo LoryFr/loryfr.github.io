@@ -489,7 +489,7 @@ html.sr .contact-container .grid-container {
 }
 
 .projects-item:hover img {
-    filter: blur(10px) brightness(0.5);
+    filter: blur(10px) brightness(0.5) scale(1.25);
 }
 
 /* /Projects Page */
