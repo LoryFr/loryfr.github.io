@@ -46,6 +46,61 @@
         .project-container img {
             width: 100%;
             vertical-align: bottom;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
+        .thin {
+            max-width: 798px;
+            margin: auto;
+        }
+        .title {
+            margin: 100px 15px 100px 15px;
+        }
+        .title a {
+            text-decoration: none;
+            color: inherit;
+            opacity: 0.5;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            transition: var(--transition-speed);
+        }
+        .title a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        .title h1 {
+            margin: 10px 0;
+        }
+        .image {
+            margin-bottom: 15px;
+        }
+        .dual-image {
+            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .back-button {
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .back-button a {
+            text-decoration: none;
+            color: inherit;
+            opacity: 0.5;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-speed);
+        }
+        .back-button a:hover {
+            opacity: 1;
+            text-decoration: underline;
         }
     </style>
     <!-- /Style -->
@@ -54,7 +109,7 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-toggle"></div>
-        <div class="nav-menu" translate="no">
+        <div class="nav-menu" translate="no" style="background-color: #111;">
                 <a href="/./">Home</a>
                 <a href="/gallery">Gallery</a>
                 <a href="/projects">Projects</a>
@@ -81,10 +136,30 @@
             <div class="filter"></div>
         </div>
         <div class="project-container">
-            <div class="title">
-                <h1>HiFi Cannella</h1>
-                <p>paragrafo di prova</p>
+            <div class="thin">
+                <div class="title load-hidden">
+                    <a href="/projects"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" fill="white"/></svg>Back to Projects</a>
+                    <h1>High Fidelity Audio - UI & UX</h1>
+                    <p>My work at HiFi Cannella allowed me to combine my passion for photography and web development to create a digital platform that effectively represented the brand and enhanced its online presence. It was a rewarding experience that honed my skills in visual storytelling, web design, and client collaboration.</p>
+                </div>
+                <div class="image load-hidden">
+                    <img src="img/1.webp" alt="">
+                </div>
+                <div class="dual-image load-hidden">
+                    <img src="img/2.webp" alt="">
+                    <img src="img/3.webp" alt="">
+                </div>
+                <div class="image load-hidden">
+                    <img src="img/4.webp" alt="">
+                </div>
+                <div class="dual-image load-hidden">
+                    <img src="img/5.webp" alt="">
+                    <img src="img/6.webp" alt="">
+                </div>
             </div>
+            <footer class="back-button">
+                <a href="/projects"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" fill="white"/></svg>Back to Projects</a>
+            </footer>
         </div>
     </main>
     <!-- /Main -->
@@ -98,6 +173,21 @@
             delay: 500,
         });
         ScrollReveal().reveal('.navbar .nav-toggle');
+        ScrollReveal().reveal('.title' , {
+            delay: 100,
+            reset: false,
+        });
+        ScrollReveal().reveal('.image' , {
+            delay: 150,
+            interval: 80,
+            reset: false,
+        });
+        ScrollReveal().reveal('.dual-image' , {
+            delay: 150,
+            interval: 80,
+            reset: false,
+        });
+        ScrollReveal().reveal('.back-button');
     </script>
     <noscript>Your browser does not support JavaScript!</noscript>
     <!-- /Scripts -->
