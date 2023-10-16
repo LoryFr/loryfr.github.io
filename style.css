@@ -755,6 +755,7 @@ html.sr .contact-container .grid-container {
 
 .contact-container .grid-container .social-container .flex-container a img {
     transition: var(--transition-speed);
+    height: 75px;
 }
 
 .contact-container .grid-container .social-container .flex-container {
