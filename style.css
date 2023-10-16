@@ -863,7 +863,7 @@ html.sr .contact-container .grid-container {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color-palette-blue);
+    background-color: var(--ac-primary);
 }
 
 ::-webkit-scrollbar-track {
