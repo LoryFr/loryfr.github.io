@@ -39,7 +39,6 @@ ScrollReveal().reveal('.gallery-item:first-child', {
 
 /** About */
 
-ScrollReveal().reveal('.content .grid-container');
 ScrollReveal().reveal('.content .grid-container .profile-container' , {
     delay: 50,
 });
@@ -61,7 +60,6 @@ ScrollReveal().reveal('.content .grid-container .tech-container .icons-container
 
 /** Contact */
 
-ScrollReveal().reveal('.content .grid-container');
 ScrollReveal().reveal('.content .grid-container .main-container' , {
     delay: 100,
 });
