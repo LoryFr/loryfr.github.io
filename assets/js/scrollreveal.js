@@ -1,5 +1,10 @@
 /** General */
 
+ScrollReveal({
+    reset: true,
+    scale: 0.85,
+});
+
 ScrollReveal().reveal('header');
 ScrollReveal().reveal('.content menu');
 ScrollReveal().reveal('.navbar .nav-toggle');
@@ -81,4 +86,21 @@ ScrollReveal().reveal('.content .grid-container .form-container form' , {
 });
 ScrollReveal().reveal('.content .grid-container .image-container' , {
     delay: 400,
+});
+
+/** Project */
+
+ScrollReveal().reveal('.title' , {
+    delay: 100,
+    reset: false,
+});
+ScrollReveal().reveal('.image' , {
+    delay: 150,
+    interval: 80,
+    reset: false,
+});
+ScrollReveal().reveal('.dual-image' , {
+    delay: 150,
+    interval: 80,
+    reset: false,
 });
