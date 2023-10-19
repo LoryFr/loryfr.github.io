@@ -1,9 +1,9 @@
-/** General */
-
 ScrollReveal({
     reset: true,
     scale: 0.85,
 });
+
+/** General */
 
 ScrollReveal().reveal('header');
 ScrollReveal().reveal('.content menu');
@@ -19,7 +19,7 @@ ScrollReveal().reveal('.projects-item', {
     distance: '100px',
 })
 ScrollReveal().reveal('.projects-item:first-child', {
-    delay: 0,
+    delay: 100,
     interval: 80,
 })
 

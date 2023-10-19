@@ -27,54 +27,6 @@ html.sr .load-hidden {
     visibility: hidden;
 }
 
-html.sr .gallery-item {
-    visibility: hidden;
-}
-
-html.sr .projects-item {
-    visibility: hidden;
-}
-
-html.sr .content header {
-    visibility: hidden;
-}
-
-html.sr .content menu {
-    visibility: hidden;
-}
-
-html.sr .hero-container .black-filter {
-    visibility: hidden;
-}
-
-html.sr .hero-container {
-    visibility: hidden;
-}
-
-html.sr .hero-container .text {
-    visibility: hidden;
-}
-
-html.sr .hero-container .logo {
-    visibility: hidden;
-}
-
-html.sr .hero-container .social {
-    visibility: hidden;
-}
-
-html.sr .navbar .nav-toggle {
-    visibility: hidden;
-}
-
-html.sr .about-container .grid-container {
-    visibility: hidden;
-}
-
-html.sr .contact-container .grid-container {
-    visibility: hidden;
-}
-
 /* /ScrollReveal Utilities */
 
 /* Navigation Bar */
