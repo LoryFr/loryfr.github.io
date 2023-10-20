@@ -95,7 +95,6 @@ html.sr .load-hidden {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    border-radius: 10px;
     margin: 10px 50px;
     transition: var(--transition-speed);
 }
@@ -166,10 +165,11 @@ html.sr .load-hidden {
     justify-content: center;
     align-items: center;
     height: 50px;
-    text-transform: uppercase;
+    text-transform: none;
+    font-size: 1em;
     letter-spacing: 2px;
-    font-size: 0.8em;
     font-weight: 700;
+    text-transform: none;
 }
 
 .content menu a {
