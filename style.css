@@ -166,10 +166,10 @@ html.sr .load-hidden {
     align-items: center;
     height: 50px;
     text-transform: none;
-    font-size: 1em;
+    font-size: 0.8em;
     letter-spacing: 2px;
     font-weight: 700;
-    text-transform: none;
+    text-transform: uppercase;
 }
 
 .content menu a {
