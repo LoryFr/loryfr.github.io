@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .project-container {
     padding: 110px 100px;
     min-height: 100vh;
