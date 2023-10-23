@@ -172,6 +172,15 @@ html.sr .load-hidden {
     color: white;
     transition: var(--transition-speed);
     font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.content menu a img {
+    height: 1.5em;
+    vertical-align: bottom;
+    filter: invert();
 }
 
 .content menu a:hover {
@@ -193,12 +202,13 @@ html.sr .load-hidden {
     gap: 10px;
     align-items: center;
     transition: var(--transition-speed);
+    font-weight: 500;
 }
 
 .content .mail-toggle img {
-    height: 30px;
+    height: 1.5em;
     vertical-align: bottom;
-    transition: var(--transition-speed);
+    filter: invert();
 }
 
 @media (max-width: 1200px) {
