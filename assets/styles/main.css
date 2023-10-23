@@ -178,8 +178,25 @@ html.sr .load-hidden {
     color: var(--ac-primary);
 }
 
+.content .mail-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 40px 100px;
+}
+
+.content .mail-toggle img {
+    height: 30px;
+    vertical-align: bottom;
+    transition: var(--transition-speed);
+}
+
 @media (max-width: 1200px) {
     .content menu {
+        display: none;
+    }
+    .content .mail-toggle {
         display: none;
     }
 }

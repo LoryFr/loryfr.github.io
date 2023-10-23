@@ -2,6 +2,24 @@ body {
     background-color: black;
 }
 
+.content menu a {
+    opacity: 0.5;
+}
+
+.content menu a:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: underline;
+}
+
+.content .mail-toggle img {
+    opacity: 0.5;
+}
+
+.content .mail-toggle img:hover {
+    opacity: 1;
+}
+
 .project-container {
     padding: 110px 100px;
     min-height: 100vh;
