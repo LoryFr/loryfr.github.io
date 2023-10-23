@@ -12,12 +12,13 @@ body {
     text-decoration: underline;
 }
 
-.content .mail-toggle img {
+.content .mail-toggle a {
     opacity: 0.5;
 }
 
-.content .mail-toggle img:hover {
+.content .mail-toggle a:hover {
     opacity: 1;
+    text-decoration: underline;
 }
 
 .project-container {
