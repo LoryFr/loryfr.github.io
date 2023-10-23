@@ -5,8 +5,6 @@
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --bg-primary: #12192c;
     --ac-primary: #4158D0;
-    --ac-secondary: #FB5607;
-    --ac-tertiary: ;
 }
 
 * {
@@ -159,6 +157,8 @@ html.sr .load-hidden {
     position: absolute;
     top: 30px;
     right: 200px;
+    left: 200px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     gap: 15px;
@@ -171,6 +171,7 @@ html.sr .load-hidden {
     text-decoration: none;
     color: white;
     transition: var(--transition-speed);
+    font-weight: 500;
 }
 
 .content menu a:hover {
