@@ -184,7 +184,7 @@ html.sr .load-hidden {
 }
 
 .content menu a:hover {
-    color: var(--ac-primary);
+    text-decoration: underline;
 }
 
 .content .mail-toggle {
@@ -209,6 +209,10 @@ html.sr .load-hidden {
     height: 1.5em;
     vertical-align: bottom;
     filter: invert();
+}
+
+.content .mail-toggle a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
