@@ -189,10 +189,12 @@ html.sr .load-hidden {
 
 .content .mail-toggle {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 30px;
+    right: 100px;
     z-index: 2;
-    padding: 40px 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .content .mail-toggle a {
