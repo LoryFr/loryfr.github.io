@@ -4,6 +4,7 @@
     --transition-speed: 200ms ease-out;
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --bg-primary: #12192c;
+    --bg-secondary: #000000;
     --ac-primary: #4158D0;
 }
 
@@ -393,7 +394,7 @@ html.sr .load-hidden {
 /* Projects Page */
 
 .projects-container {
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
     padding: 110px 100px;
     min-height: 100vh;
 }
@@ -406,19 +407,19 @@ html.sr .load-hidden {
 
 .projects-container .projects-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
 @media (max-width: 2000px) {
     .projects-container .projects-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 1500px) {
     .projects-container .projects-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -502,25 +503,25 @@ html.sr .load-hidden {
 }
 
 .gallery-container .gallery-grid {
-    column-count: 6;
+    column-count: 5;
     gap: 15px;
 }
 
 @media (max-width: 2000px) {
     .gallery-container .gallery-grid {
-        column-count: 5;
+        column-count: 4;
     }
 }
 
 @media (max-width: 1500px) {
     .gallery-container .gallery-grid {
-        column-count: 4;
+        column-count: 3;
     }
 }
 
 @media (max-width: 1200px) {
     .gallery-container .gallery-grid {
-        column-count: 3;
+        column-count: 2;
     }
 }
 
