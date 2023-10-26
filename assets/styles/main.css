@@ -483,7 +483,7 @@ html.sr .load-hidden {
 }
 
 .projects-item:hover img {
-    filter: blur(25px) brightness(0.5);
+    filter: blur(20px) brightness(0.5);
 }
 
 /* /Projects Page */
