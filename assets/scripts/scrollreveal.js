@@ -1,5 +1,4 @@
 ScrollReveal({
-    reset: true,
     scale: 0.85,
 });
 
@@ -16,7 +15,6 @@ ScrollReveal().reveal('.projects-item', {
     delay: 250,
     interval: 80,
     useDelay: 'onload',
-    reset: false,
     distance: '100px',
 })
 ScrollReveal().reveal('.projects-item:first-child', {
@@ -30,7 +28,6 @@ ScrollReveal().reveal('.gallery-item', {
     delay: 250,
     interval: 80,
     useDelay: 'onload',
-    reset: false,
     distance: '100px',
 });
 ScrollReveal().reveal('.gallery-item:first-child', {
@@ -91,15 +88,12 @@ ScrollReveal().reveal('.content .grid-container .image-container' , {
 
 ScrollReveal().reveal('.title' , {
     delay: 100,
-    reset: false,
 });
 ScrollReveal().reveal('.image' , {
     delay: 150,
     interval: 80,
-    reset: false,
 });
 ScrollReveal().reveal('.dual-image' , {
     delay: 150,
     interval: 80,
-    reset: false,
 });
