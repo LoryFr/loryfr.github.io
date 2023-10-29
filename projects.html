@@ -1,116 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/main.css">
-    <link rel="stylesheet" href="/assets/styles/projects.css">
-    <!-- SEO -->
-    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
-    <title>Lorenzo Fiori | Projects about UI / UX Design, Graphic Design, Color Grading, and More</title>
-    <meta name="author" content="Lorenzo Fiori">
-    <meta name="description" content="Explore the creative talents of Lorenzo Fiori, a Graphic Designer, UI/UX Designer, Colorist, Photographer, Videographer, and Filmmaker, all in one. Elevate your creative projects with Lorenzo's exceptional visual storytelling skills. Dive into his portfolio and unlock the potential of your ideas. Contact Lorenzo Fiori to bring your creative vision to life today.">
-    <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Filmmaker, Graphic Design, UI / UX Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
-    <!-- /SEO -->
-    <!-- Open Graph Protocol -->
-    <meta property="og:title" content="Lorenzo Fiori | Graphic Designer, UI / UX Designer, Colorist, Photographer, Videographer, Filmmaker" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lorenzofiori.art/" />
-    <meta property="og:image" content="https://lorenzofiori.art/projects/pixelspore/cover.webp" />
-    <!-- /Open Graph Protocol -->
-    <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- /ScrollReveal -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <!-- SEO -->
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+    <!-- /FavIcon -->
+  <title>Team Mini Muuu | Our Projects</title>
+  <meta name="author" content="lorenzo fiori">
+  <meta name="description" content="Explore the imaginative world of indie game development with Mini Muuu. Our team crafts captivating and innovative games that will transport you to new realms of adventure. Discover your next gaming obsession today!">
+  <meta name="keywords" content="Videogame, Machine Learning, Mini Muuu, Muuu, Redbull Indie Forge, Prochronos, Games, Art">
+  <!-- /SEO -->
 </head>
-<body style="background-color: var(--bg-secondary);">
-    <!-- Navigation -->
+<body>
+  <!-- NavBar -->
+  <header>
     <nav class="navbar">
-        <div class="nav-toggle load-hidden"></div>
-        <div class="nav-menu" translate="no">
-                <a href="/./"><img src="/assets/icons/home-outline.svg" alt="home icon">Home</a>
-                <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="projects icon">Projects</a>
-                <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="gallery icon">Gallery</a>
-                <a href="/about"><img src="/assets/icons/person-outline.svg" alt="about icon">About</a>
-                <a href="/contact"><img src="/assets/icons/email-outline.svg" alt="email icon">Contact</a>
+      <div class="logo-wrapper">
+        <a href="/./"><img src="/assets/img/logo/nav-logo.svg" alt="mini muuu logo"></a>
+      </div>
+      <div class="nav-link">
+        <a href="/./">Home</a>
+        <a href="/about.html">Who We Are</a>
+        <a href="/projects.html">Our Projects</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+      <div class="nav-dropdown">
+        <button onclick="nav_dropdown_toggle()" class="nav-button" id="nav-button"></button>
+        <div id="dropdown-menu" class="dropdown-menu nav-link">
+          <a href="/./">Home</a>
+          <a href="/about.html">Who We Are</a>
+          <a href="/projects.html">Our Projects</a>
+          <a href="/contact.html">Contact Us</a>
         </div>
+      </div>
     </nav>
-    <!-- /Navigation -->
-    <!-- Main -->
-    <main class="content">
-        <h1 style="display: none;">Unveiling Creative Excellence: A Graphic Design Portfolio Showcase</h1>
-        <p style="display: none;">Explore a dynamic showcase of my diverse creative projects, spanning graphic design, photography, color grading, video production, and more. Immerse yourself in a world of visual storytelling and artistic excellence. Discover the breadth of my skills and talents in one place.</p>
-        <!-- Header -->
-        <header class="load-hidden">
-            <a href="/./"><h2 translate="no">Lorenzo <span style="color: var(--ac-primary);">Fiori</span></h2></a>
-        </header>
-        <div class="mail-toggle load-hidden"><a href="/contact"><img src="/assets/icons/email-outline.svg" alt="">Email Me</a></div>
-        <menu translate="no" class="load-hidden">
-            <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="">Projects</a>
-            <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="">Gallery</a>
-            <a href="/about"><img src="/assets/icons/person-outline.svg" alt="">About</a>
-        </menu>
-        <!-- /Header -->
-        <div class="projects-container">
-            <!-- Project Covers Should Have a 5:4 Aspect Ration (1920x1536) -->
-            <div class="projects-grid">
+  </header>
+  <!-- /NavBar -->
+  <main id="content">
+    <div class="projects-container">
 
-                    <div class="projects-item load-hidden" style="display: none;">
-                        <img src="/projects/pixelspore/cover.webp" alt="pixelspore project cover">
-                        <div class="projects-description">
-                            <h3>Product Design</h3>
-                            <h2>PixelSpore</h2>
-                        </div>
-                        <a href="/projects/pixelspore/./"></a>
-                    </div>
+      <div class="project-card" style="background: center url(assets/img/projects/prochronos.gif); background-size: cover;">
+        <div class="filter"></div>
+        <h3 style="color: black;">Prochronos</h3>
+        <p style="color: #111;">Machine Learning Based Platform Game</p>
+        <a href="/projects/prochronos/./" class="explore-button">Esplora</a>
+      </div>
+      
+      <div class="project-card">
+        <h3>Coming Soon</h3>
+        <p>Undefined</p>
+        <a href="#" class="explore-button">Esplora</a>
+      </div>
 
-                    <div class="projects-item load-hidden">
-                        <img src="/projects/prochronos/cover.webp" alt="prochronos project cover">
-                        <div class="projects-description">
-                            <h3>Visual Identity</h3>
-                            <h2>Prochronos Game</h2>
-                        </div>
-                        <a href="/projects/prochronos/./"></a>
-                    </div>
-
-                    <div class="projects-item load-hidden">
-                        <img src="/projects/mini-muuu/cover.webp" alt="mini muuu project cover">
-                        <div class="projects-description">
-                            <h3>Visual Identity</h3>
-                            <h2>Team Mini Muuu</h2>
-                        </div>
-                        <a href="/projects/mini-muuu/./"></a>
-                    </div>
-
-                    <div class="projects-item load-hidden">
-                        <img src="/projects/hifi-cannella/cover.webp" alt="hifi cannella project cover">
-                        <div class="projects-description">
-                            <h3>Website</h3>
-                            <h2>HiFi Cannella</h2>
-                        </div>
-                        <a href="/projects/hifi-cannella/./"></a>
-                    </div>
-
-                    <div class="projects-item load-hidden" style="display: none;">
-                        <img src="/projects/dragons-lounge/cover.webp" alt="dragon's lounge project cover">
-                        <div class="projects-description">
-                            <h3>Visual Identity</h3>
-                            <h2>Dragon's Lounge</h2>
-                        </div>
-                        <a href="/projects/dragons-lounge/./"></a>
-                    </div>
-
-            </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="logo-container">
+          <a href="/./"><img src="/assets/img/logo/nav-logo.svg" alt="mini muuu logo"></a>
         </div>
-    </main>
-    <!-- /Main -->
-    <!-- Scripts -->
-    <script src="/assets/scripts/navigation.js"></script>
-    <script src="/assets/scripts/scrollreveal.js"></script>
-    <noscript>Your browser does not support JavaScript!</noscript>
-    <!-- /Scripts -->
+        <div class="social-container">
+          <a href="mailto:teamminimuuu@gmail.com"><img src="/assets/icons/social/email.png" alt=""></a>
+          <a href="https://www.youtube.com/@Mini-Muuu"><img src="/assets/icons/social/youtube.png" alt=""></a>
+          <a href="https://www.instagram.com/teamminimuuu/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+          <a href=""><img src="/assets/icons/social/linkedin.png" alt=""></a>
+        </div>
+      </div>
+      <hr style="color: var(--ac-primary); height: 1px; border: solid 1px; border-radius: 1px;">
+      <div class="copyright-container">
+        <p>© Copyright <a href="https://lorenzofiori.art" style="text-decoration: none; color: inherit;">Lorenzo Fiori</a>® All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- /Footer -->
+  </main>
+  <!-- Scripts -->
+  <script src="/assets/scripts/navigation.js"></script>
+  <noscript>Your Browser Do Not Support Javascript</noscript>
+  <!-- /Scripts -->
 </body>
 </html>

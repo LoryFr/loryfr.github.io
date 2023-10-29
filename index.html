@@ -1,119 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/main.css">
-    <!-- SEO -->
-    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
-    <title>Lorenzo Fiori | UI / UX Designer, Graphic Designer, Colorist, Photographer, Videographer, Filmmaker</title>
-    <meta name="author" content="Lorenzo Fiori">
-    <meta name="description" content="Designer and Photographer Based in Milano, Italy">
-    <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Filmmaker, Graphic Design, UI / UX Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
-    <!-- /SEO -->
-    <!-- Open Graph Protocol -->
-    <meta property="og:title" content="Lorenzo Fiori | Graphic Designer, UI / UX Designer, Colorist, Photographer, Videographer, Filmmaker" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lorenzofiori.art/" />
-    <meta property="og:image" content="https://lorenzofiori.art/assets/img/logo/index-cover.webp" />
-    <!-- /Open Graph Protocol -->
-    <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({
-            scale: 0.85,
-        });
-    </script>
-    <!-- /ScrollReveal -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <!-- SEO -->
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+  <!-- /FavIcon -->
+  <title>Team Mini Muuu | Indie Videogame Developing Team</title>
+  <meta name="author" content="lorenzo fiori">
+  <meta name="description" content="Explore the imaginative world of indie game development with Mini Muuu. Our team crafts captivating and innovative games that will transport you to new realms of adventure. Discover your next gaming obsession today!">
+  <meta name="keywords" content="Videogame, Machine Learning, Mini Muuu, Muuu, Redbull Indie Forge, Prochronos, Games, Art">
+  <!-- /SEO -->
+  <!-- Open Graph Protocol -->
+  <meta property="og:title" content="Mini Muuu | Indie Videogame Developing Team" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://minimuuu.it/" />
+  <meta property="og:image" content="https://minimuuu.it/assets/img/projects/prochronos.gif" />
+  <!-- /Open Graph Protcol -->
 </head>
 <body>
-    <!-- Navigation -->
+  <!-- NavBar -->
+  <header>
     <nav class="navbar">
-        <div class="nav-toggle load-hidden"></div>
-        <div class="nav-menu" translate="no">
-                <a href="/./"><img src="/assets/icons/home-outline.svg" alt="home icon">Home</a>
-                <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="projects icon">Projects</a>
-                <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="gallery icon">Gallery</a>
-                <a href="/about"><img src="/assets/icons/person-outline.svg" alt="about icon">About</a>
-                <a href="/contact"><img src="/assets/icons/email-outline.svg" alt="email icon">Contact</a>
+      <div class="logo-wrapper">
+        <a href="/./"><img src="/assets/img/logo/nav-logo.svg" alt="mini muuu logo"></a>
+      </div>
+      <div class="nav-link">
+        <a href="/./">Home</a>
+        <a href="/about.html">Who We Are</a>
+        <a href="/projects.html">Our Projects</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+      <div class="nav-dropdown">
+        <button onclick="nav_dropdown_toggle()" class="nav-button" id="nav-button"></button>
+        <div id="dropdown-menu" class="dropdown-menu nav-link">
+          <a href="/./">Home</a>
+          <a href="/about.html">Who We Are</a>
+          <a href="/projects.html">Our Projects</a>
+          <a href="/contact.html">Contact Us</a>
         </div>
+      </div>
     </nav>
-    <!-- /Navigation -->
-    <!-- Main -->
-    <main class="content">
-        <h1 style="display: none;">Lorenzo Fiori Personal Portfolio About Graphic Design, UI / UX Design, Photography, Color Grading and More</h1>
-        <p style="display: none;">Welcome to the creative world of Lorenzo Fiori, a versatile professional skilled in Graphic Design, UI/UX Design, Colorist expertise, Photography, Videography, and Filmmaking. With an innate passion for visual art and a wealth of experience in the realms of design and multimedia production, Lorenzo is the multi-talented expert who can turn your ideas into reality. His ability to capture the essence of a project through images, colors, and visual storytelling is unparalleled. Explore his portfolio to see how he can take your creative vision to the next level. Whether you're seeking a creative mind for your design, photography, or video needs, you've come to the right place. Contact Lorenzo Fiori today to begin bringing your creative vision to life.</p>
-        <div class="hero-container load-hidden">
-            <div class="black-filter load-hidden"></div>
-            <!-- Header -->
-            <header class="load-hidden">
-                <h2 translate="no">Lorenzo Fiori</h2>
-            </header>
-            <div class="mail-toggle load-hidden"><a href="/contact"><img src="/assets/icons/email-outline.svg" alt="email icon">Email Me</a></div>
-            <menu translate="no" class="load-hidden">
-                <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="briefcase icon">Projects</a>
-                <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="image icon">Gallery</a>
-                <a href="/about"><img src="/assets/icons/person-outline.svg" alt="person icon">About</a>
-            </menu>
-            <!-- /Header -->
-            <hgroup class="text load-hidden" translate="no">
-                <h2>Where Vision,</h2>
-                <h3>Meets Creation.</h3>
-                <p>Crafting Visual Magic, One Pixel at a Time.</p>
-                <a href="/projects">EXPLORE</a>
-            </hgroup>
-            <ul class="social load-hidden">
-                <li><a href="https://www.instagram.com/lory_fr"><img src="/assets/icons/social-white/Instagram.svg" alt="instagram logo icon directing to lorenzo fiori profile"></a></li>
-                <li><a href="https://www.linkedin.com/in/lorenzo-fiori-colorist"><img src="/assets/icons/social-white/LinkedIn.svg" alt="linkedin logo icon directing to lorenzo fiori profile"></a></li>
-                <li><a href="https://t.me/haiseshikai"><img src="/assets/icons/social-white/Telegram.svg" alt="telegram logo icon directing to lorenzo fiori profile"></a></li>
-                <li><a href="https://github.com/LoryFr"><img src="/assets/icons/social-white/Github.svg" alt="github logo icon directing to lorenzo fiori profile"></a></li>
-                <li><a href="https://cnmn.world"><img src="/assets/icons/social-white/Shopping.svg" alt="shopify of riccardo cannella"></a></li>
-            </ul>
-            <div class="logo load-hidden">
-                <img src="/assets/img/logo/logo-fill.svg" alt="personal logo of lorenzo fiori">
-            </div>
+  </header>
+  <!-- /NavBar -->
+  <main id="content">
+    <div class="hero-section">
+      <h1>Where <br> imagination <br> comes to <span style="color: var(--ac-primary);">MUUU</span></h1>
+      <a href="https://www.youtube.com/watch?v=GABWwnmnQsw" target="_blank">Muuu Trailer</a>
+    </div>
+    <div class="articles-section">
+      <!-- Max 7 Items Inside the Band  -->
+      <!-- Older Articles will be Replaced with Newer Ones -->
+      <header>
+        <h1><span style="color: var(--ac-primary);">Tales</span> from Mini-Muuu</h1>
+      </header>
+      <div class="band">
+
+        <div class="item-1">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/caduta.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
         </div>
-    </main>
-    <!-- /Main -->
-    <!-- Scripts -->
-    <script src="/assets/scripts/navigation.js"></script>
-    <script>
-        ScrollReveal().reveal('header', {
-            delay: 300,
-        });
-        ScrollReveal().reveal('.content menu' , {
-            delay: 500,
-        });
-        ScrollReveal().reveal('.content .mail-toggle' , {
-            delay: 550,
-        });
-        ScrollReveal().reveal('.navbar .nav-toggle' , {
-            delay: 600,
-        });
-        ScrollReveal().reveal('.content .hero-container' , {
-            delay: 100,
-        });
-        ScrollReveal().reveal('.content .black-filter' , {
-            delay: 300,
-            scale: 0.25,
-        });
-        ScrollReveal().reveal('.content .hero-container .text' , {
-            delay: 400,
-            distance: '100px',
-        });
-        ScrollReveal().reveal('.content .hero-container .social li' , {
-            delay: 700,
-            interval: 100,
-        });
-        ScrollReveal().reveal('.content .hero-container .logo img' , {
-            delay: 200,
-        });
-    </script>
-    <noscript>Your browser does not support JavaScript!</noscript>
-    <!-- /Scripts -->
+
+        <div class="item-2">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/camminata.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-3">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/colpito.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-4">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/faint.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-5">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/idle.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-6">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/parata.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="item-7">
+          <a href="" class="card">
+            <div class="thumb" style="background-image: url(/assets/img/tales-cover/SCHIVATA.gif);"></div>
+            <article>
+              <h1>Mini Muuu Tales</h1>
+              <p>Coming Soon</p>
+              <span>Autore</span>
+            </article>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="donation-section">
+        <h2>Make a <span style="color: var(--ac-primary);">Donation</span></h2>
+        <p>Support our projects!</p>
+        
+        <!-- Pulsante di donazione PayPal -->
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_donations">
+            <input type="hidden" name="business" value="stefano.perdicchia1999@gmail.com">
+            <input type="hidden" name="item_name" value="Donation for Mini Muuu">
+            <input type="hidden" name="currency_code" value="EUR">
+            <button type="submit" style="cursor: pointer;">Donate with PayPal</button>
+        </form>
+      </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="logo-container">
+          <a href="/./"><img src="/assets/img/logo/nav-logo.svg" alt="mini muuu logo"></a>
+        </div>
+        <div class="social-container">
+          <a href="mailto:teamminimuuu@gmail.com"><img src="/assets/icons/social/email.png" alt=""></a>
+          <a href="https://www.youtube.com/@Mini-Muuu"><img src="/assets/icons/social/youtube.png" alt=""></a>
+          <a href="https://www.instagram.com/teamminimuuu/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+          <a href=""><img src="/assets/icons/social/linkedin.png" alt=""></a>
+        </div>
+      </div>
+      <hr style="color: var(--ac-primary); height: 1px; border: solid 1px; border-radius: 1px;">
+      <div class="copyright-container">
+        <p>© Copyright <a href="https://lorenzofiori.art" style="text-decoration: none; color: inherit;">Lorenzo Fiori</a>® All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- /Footer -->
+  </main>
+  <!-- Scripts -->
+  <script src="/assets/scripts/navigation.js"></script>
+  <noscript>Your Browser Do Not Support Javascript</noscript>
+  <!-- /Scripts -->
 </body>
 </html>

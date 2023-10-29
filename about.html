@@ -1,85 +1,707 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/main.css">
-    <!-- SEO -->
-    <link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
-    <title>Lorenzo Fiori | About Me</title>
-    <meta name="author" content="Lorenzo Fiori">
-    <meta name="description" content="About the Creative WorkFlow of Lorenzo Fiori">
-    <meta name="keywords" content="Photography, Art, Video, Colorist, Art Director, Filmmaker, Graphic Design, UI / UX Design, Lorenzo Fiori, Videomaker, Video Creator, 3D, Visual Storytelling, Grafica, Fotografia">
-    <!-- /SEO -->
-    <!-- Open Graph Protocol -->
-    <meta property="og:title" content="Lorenzo Fiori | Graphic Designer, UI / UX Designer, Colorist, Photographer, Videographer, Filmmaker" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lorenzofiori.art/" />
-    <meta property="og:image" content="https://lorenzofiori.art/projects/pixelspore/cover.webp" />
-    <!-- /Open Graph Protocol -->
-    <!-- ScrollReveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- /ScrollReveal -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <!-- SEO -->
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+    <!-- /FavIcon -->
+  <title>Team Mini Muuu | About Our Team</title>
+  <meta name="author" content="lorenzo fiori">
+  <meta name="description" content="Explore the imaginative world of indie game development with Mini Muuu. Our team crafts captivating and innovative games that will transport you to new realms of adventure. Discover your next gaming obsession today!">
+  <meta name="keywords" content="Videogame, Machine Learning, Mini Muuu, Muuu, Redbull Indie Forge, Prochronos, Games, Art">
+  <!-- /SEO -->
 </head>
 <body>
-    <!-- Navigation -->
+  <!-- NavBar -->
+  <header>
     <nav class="navbar">
-        <div class="nav-toggle load-hidden"></div>
-        <div class="nav-menu" translate="no">
-                <a href="/./"><img src="/assets/icons/home-outline.svg" alt="home icon">Home</a>
-                <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="projects icon">Projects</a>
-                <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="gallery icon">Gallery</a>
-                <a href="/about"><img src="/assets/icons/person-outline.svg" alt="about icon">About</a>
-                <a href="/contact"><img src="/assets/icons/email-outline.svg" alt="email icon">Contact</a>
+      <div class="logo-wrapper">
+        <a href="/./"><img src="/assets/img/logo/nav-logo.svg" alt="mini muuu logo"></a>
+      </div>
+      <div class="nav-link">
+        <a href="/./">Home</a>
+        <a href="/about.html">Who We Are</a>
+        <a href="/projects.html">Our Projects</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+      <div class="nav-dropdown">
+        <button onclick="nav_dropdown_toggle()" class="nav-button" id="nav-button"></button>
+        <div id="dropdown-menu" class="dropdown-menu nav-link">
+          <a href="/./">Home</a>
+          <a href="/about.html">Who We Are</a>
+          <a href="/projects.html">Our Projects</a>
+          <a href="/contact.html">Contact Us</a>
         </div>
+      </div>
     </nav>
-    <!-- /Navigation -->
-    <!-- Main -->
-    <main class="content">
-        <h1 style="display: none;">My Creative Journey: Workflow and Tools</h1>
-        <p style="display: none;">Discover the creative journey of Lorenzo Fiori, including insights into his workflow and the tools that fuel his artistic vision. Dive into the world of design, photography, and filmmaking with a glimpse into his process and favorite creative apps.</p>
-        <!-- Header -->
-        <header class="load-hidden">
-            <a href="/./"><h2 translate="no">Lorenzo <span style="color: var(--ac-primary);">Fiori</span></h2></a>
-        </header>
-        <div class="mail-toggle load-hidden"><a href="/contact"><img src="/assets/icons/email-outline.svg" alt="">Email Me</a></div>
-        <menu translate="no" class="load-hidden">
-            <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="">Projects</a>
-            <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="">Gallery</a>
-            <a href="/about"><img src="/assets/icons/person-outline.svg" alt="">About</a>
-        </menu>
-        <!-- /Header -->
-        <div class="about-container">
-            <div class="grid-container">
-                <div class="profile-container load-hidden">
-                    <div class="text load-hidden" translate="no">
-                        <h2>Hi There, I'm Lorenzo</h2>
-                        <h3>Here you can find My Everyday Creative Suite</h3>
-                    </div>
-                </div>
-                <div class="tech-container load-hidden">
-                    <div class="icons-container load-hidden">
-                        <img src="/assets/icons/tech/designer_icon.svg" alt="">
-                        <img src="/assets/icons/tech/photo_icon.svg" alt="">
-                        <img src="/assets/icons/tech/publisher_icon.svg" alt="">
-                        <img src="/assets/icons/tech/visual_studio_code_icon.svg" alt="">
-                        <img src="/assets/icons/tech/firefox_icon.svg" alt="">
-                        <img src="/assets/icons/tech/figma_icon.svg" alt="">
-                        <img src="/assets/icons/tech/davinci-resolve-icon.png" alt="">
-                    </div>
-                </div>
+  </header>
+  <!-- /NavBar -->
+  <main id="content">
+
+    <!-- Team Founders -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Stefano Perdicchia.jpg" alt="">
+            <h3>Stefano Perdicchia</h3>
+            <p>Founder</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Stefano Perdicchia</h3>
+              <p>Kaiohshin il Sommo</p>
             </div>
+            <div class="link-container">
+              <a href="https://www.linkedin.com/in/stefano-perdicchia/"><img src="/assets/icons/social/linkedin.png" alt=""></a>
+              <a href="mailto:s.perdicchia@icloud.com"><img src="/assets/icons/social/email.png" alt=""></a>
+            </div>
+          </div>
         </div>
-    </main>
-    <!-- /Main -->
-    <!-- Scripts -->
-    <script src="/assets/scripts/navigation.js"></script>
-    <script src="/assets/scripts/scrollreveal.js"></script>
-    <noscript>Your browser does not support JavaScript!</noscript>
-    <!-- /Scripts -->
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Marco Savoldelli.jpeg" alt="">
+            <h3>Marco Savoldelli</h3>
+            <p>Founder / Manager Team Grafico</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Marco Savoldelli</h3>
+              <p>Invece di guardare la mia bio, guarda i nostri lavori 😉</p>
+            </div>
+            <div class="link-container">
+              <a href="marcosavoldelli98@gmail.com"><img src="/assets/icons/social/email.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Leaders -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Lorenzo Fiori.jpg" alt="">
+            <h3>Lorenzo Fiori</h3>
+            <p>Manager Team Web</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Lorenzo Fiori</h3>
+              <p>Reaper</p>
+            </div>
+            <div class="link-container">
+              <a href="https://lorenzofiori.art"><img src="/assets/icons/social/web.png" alt=""></a>
+              <a href="https://www.linkedin.com/in/lorenzo-fiori-colorist/"><img src="/assets/icons/social/linkedin.png" alt=""></a>
+              <a href="https://instagram.com/lory_fr"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Gabriele Cortinovis.jpg" alt="">
+            <h3>Gabriele Cortinovis</h3>
+            <p>Manager Team Sviuppo</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Gabriele Cortinovis</h3>
+              <p>La curiosità mi guida…ma non sempre nel posto giusto</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/gabriele_kurt_/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Davide Lamperti.jpg" alt="">
+            <h3>Davide Lamperti</h3>
+            <p>Manager Team Animazione</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Davide Lamperti</h3>
+              <p>Team Video</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Alessandro Grasso.jpeg" alt="">
+            <h3>Alessandro Grasso</h3>
+            <p>Manager Team Audio</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Alessandro Grasso</h3>
+              <p>Compositore di brani musicali</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Web -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Riccardo Cannella.jpeg" alt="">
+            <h3>Riccardo Cannella</h3>
+            <p>Graphic Designer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Riccardo Cannella</h3>
+              <p>Concretizzo una visione</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.linkedin.com/in/riccardo-cannella-its/"><img src="/assets/icons/social/linkedin.png" alt=""></a>
+              <a href="https://www.instagram.com/c.a.n.n.e.l.l.a"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Francesco Maschio.JPEG" alt="">
+            <h3>Francesco Maschio</h3>
+            <p>Sviluppatore Web</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Francesco Maschio</h3>
+              <p>They can take everything from me, but not my skills, yet.</p>
+            </div>
+            <div class="link-container">
+              <a href="https://bio.link/francescomaschio"><img src="/assets/icons/social/web.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Sviluppo -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Andrea Cantone.jpeg" alt="">
+            <h3>Andrea Cantone</h3>
+            <p>Game Developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Andrea Cantone</h3>
+              <p></p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.linkedin.com/in/andrea-cantone-42141925a"><img src="/assets/icons/social/linkedin.png" alt=""></a>
+              <a href="https://instagram.com/_._andreaa._._?igshid=MzRlODBiNWFlZA=="><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Davide Longo.png" alt="">
+            <h3>GreenNinjaCraft</h3>
+            <p>Game Developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>GreenNinjaCraft</h3>
+              <p>It could be worse. (It got worse)</p>
+            </div>
+            <div class="link-container">
+              <a href="https://instagram.com/greeninjacraft"><img src="/assets/icons/social/instagram.png" alt=""></a>
+              <a href="https://x.com/GreeninjaCraft?t=_DhQg5ba47wZOUppNM-UVA&s=09 "><img src="/assets/icons/social/twitter.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Edoardo Andrea Giacomin.jpg" alt="">
+            <h3>Edoardo Andrea Giacomin</h3>
+            <p>Game Developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Edoardo Andrea Giacomin</h3>
+              <p>Full-time data analyst and Warhammer fan</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.linkedin.com/in/edoardo-andrea-giacomin/"><img src="/assets/icons/social/linkedin.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Federico Pizzoni.jpeg" alt="">
+            <h3>Federico Pizzoni</h3>
+            <p>Game Developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Federico Pizzoni</h3>
+              <p>Faber est suae quisque fortunae</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Francesco Lamanna</h3>
+            <p>Game Developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Francesco Lamanna</h3>
+              <p></p>
+            </div>
+            <div class="link-container">
+              <a href="https://instagram.com/lama_fra?igshid=YTQwZjQ0NmI0OA=="><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Stefano Bonfanti.JPG" alt="">
+            <h3>Stefano Bonfanti</h3>
+            <p>Game developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Stefano Bonfanti</h3>
+              <p>Developer</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Giuseppe Triscari</h3>
+            <p>Game Developer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Giuseppe Triscari</h3>
+              <p>We are frogs</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/peppe.tris/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Animazione -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Angelica Russo.jpeg" alt="">
+            <h3>Angelica Russo</h3>
+            <p>Animator Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Angelica Russo</h3>
+              <p>:p</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/giramenta/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Thomas Bizzaro.jpeg" alt="">
+            <h3>Thomas Bizzaro</h3>
+            <p>Animator Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Thomas Bizzaro</h3>
+              <p>Single, cercasi Mommy (Preferibilmente asiatica o Gotica)</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.twitch.tv/mrfrullato"><img src="/assets/icons/social/web.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Rebecca Fulfini</h3>
+            <p>Animator Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Rebecca Fulfini</h3>
+              <p>Ho 22 anni, vivo a Lucca e studio Editing/VFX</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/rebfln/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Alessia Giacchero</h3>
+            <p>Animator Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Alessia Giacchero</h3>
+              <p></p>
+            </div>
+            <div class="link-container">
+              <a href="kebbysama.carrd.co"><img src="/assets/icons/social/web.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Grafico -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Andrea Taccia</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Andrea Taccia</h3>
+              <p>Io manco ho finito il liceo</p>
+            </div>
+            <div class="link-container">
+              <a href="https://instagram.com/golem_drawing?igshid=OGQ5ZDc2ODk2ZA=="><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Elena Andreotti.jpg" alt="">
+            <h3>Elena Andreotti</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Elena Andreotti</h3>
+              <p>Pizza solves 90% of the problems</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Greta Celesti.JPG" alt="">
+            <h3>Greta Celesti</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Greta Celesti</h3>
+              <p>Grafico</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Laura Piazza.JPG" alt="">
+            <h3>Laura Piazza</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Laura Piazza</h3>
+              <p>Piccola curiosità: il mio alias (Hiiroba) significa “piazza” in giapponese</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/hiiroba_draws/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Martina D_este.jpeg" alt="">
+            <h3>Martina D'Este</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Martina D'Este</h3>
+              <p>Sono martina, una game artist che ama il disegno e l arte in tutte le sue sfaccettature!</p>
+            </div>
+            <div class="link-container">
+              <a href="https://instagram.com/babyxyz3d?igshid=OGQ5ZDc2ODk2ZA=="><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Niccolò Ragghianti.jpg" alt="">
+            <h3>Niccolò Ragghianti</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Niccolò Ragghianti</h3>
+              <p>sollevatore di ipotesi e di roccia lavica</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/mondapanni_incompetente"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Samuele Bossini.jpg" alt="">
+            <h3>Samuele Bossini</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Samuele Bossini</h3>
+              <p>Non esistono notizie belle o brutte, oh aspetta…</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.linkedin.com/in/samuele-bossini-ba9a18291?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBEjsd65wSGaPTBvAquxMcw%3D%3D "><img src="/assets/icons/social/linkedin.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Tommaso Teloni.jpeg" alt="">
+            <h3>Tommaso Teloni</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Tommaso Teloni</h3>
+              <p>Sculpting digital dreams into visual realities</p>
+            </div>
+            <div class="link-container">
+              <a href="https://tommasoteloni.myportfolio.com/"><img src="/assets/icons/social/web.png" alt=""></a>
+              <a href="https://www.instagram.com/tommasoteloni/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Alessia Maria Sechi.jpg" alt="">
+            <h3>Alessia Maria Sechi</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Alessia Maria Sechi</h3>
+              <p>Ho 21 anni e studio Nuove Tecnologie dell’Arte a Milano</p>
+            </div>
+            <div class="link-container">
+              <a href="https://instagram.com/_amberhorus_?utm_source=qr&igshid=YzU1NGVlODEzOA== "><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Valeria Sanvito.jpg" alt="">
+            <h3>Valeria Sanvito</h3>
+            <p>Game Artist</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Valeria Sanvito</h3>
+              <p>Nella vita disegno per spendere i soldi guadagnati in fumetti</p>
+            </div>
+            <div class="link-container">
+              <a href="https://instagram.com/feref.jpg?igshid=NGVhN2U2NjQ0Yg=="><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Audio -->
+    <div class="team-container">
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Andrea Traversi</h3>
+            <p>Audio Engineer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Andrea Traversi</h3>
+              <p>Paragrafo</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/Diego Lazzari.jpg" alt="">
+            <h3>Diego Lazzari</h3>
+            <p>Audio Engineer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Diego Lazzari</h3>
+              <p>Solo un piccolo producer di musica edm</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/unware_edm"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Davide Fabris</h3>
+            <p>Audio Engineer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Davide Fabris</h3>
+              <p>Paragrafo</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Andrea Policicchio</h3>
+            <p>Audio Engineer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Andrea Policicchio</h3>
+              <p>22yr old granular synthesis fanboy</p>
+            </div>
+            <div class="link-container">
+              <a href="https://www.instagram.com/ndrvvz/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="flip-card">
+          <div class="card-front">
+            <img src="/assets/img/team/" alt="">
+            <h3>Alessandro Penna</h3>
+            <p>Audio Engineer</p>
+          </div>
+          <div class="card-back">
+            <div class="text-container">
+              <h3>Alessandro Penna</h3>
+              <p>Paragrafo</p>
+            </div>
+            <div class="link-container">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="logo-container">
+          <a href="/./"><img src="/assets/img/logo/nav-logo.svg" alt="mini muuu logo"></a>
+        </div>
+        <div class="social-container">
+          <a href="mailto:teamminimuuu@gmail.com"><img src="/assets/icons/social/email.png" alt=""></a>
+          <a href="https://www.youtube.com/@Mini-Muuu"><img src="/assets/icons/social/youtube.png" alt=""></a>
+          <a href="https://www.instagram.com/teamminimuuu/"><img src="/assets/icons/social/instagram.png" alt=""></a>
+          <a href=""><img src="/assets/icons/social/linkedin.png" alt=""></a>
+        </div>
+      </div>
+      <hr style="color: var(--ac-primary); height: 1px; border: solid 1px; border-radius: 1px;">
+      <div class="copyright-container">
+        <p>© Copyright <a href="https://lorenzofiori.art" style="text-decoration: none; color: inherit;">Lorenzo Fiori</a>® All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- /Footer -->
+  </main>
+  <!-- Scripts -->
+  <script src="/assets/scripts/navigation.js"></script>
+  <noscript>Your Browser Do Not Support Javascript</noscript>
+  <!-- /Scripts -->
 </body>
 </html>
