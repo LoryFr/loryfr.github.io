@@ -869,6 +869,12 @@ html.sr .load-hidden {
     opacity: 0.5;
 }
 
+@media (max-width: 798px) {
+    .main-footer {
+        font-size: 0.8em;
+    }
+}
+
 /* /Footer */
 
 ::-webkit-scrollbar {
