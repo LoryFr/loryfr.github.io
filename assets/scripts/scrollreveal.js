@@ -8,6 +8,7 @@ ScrollReveal().reveal('header');
 ScrollReveal().reveal('.content menu');
 ScrollReveal().reveal('.content .mail-toggle');
 ScrollReveal().reveal('.navbar .nav-toggle');
+ScrollReveal().reveal('.main-footer');
 
 /** Projects */
 
