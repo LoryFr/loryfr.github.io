@@ -18,6 +18,7 @@
 body {
     background-color: var(--bg-primary);
     transition: var(--transition-speed);
+    position: relative;
 }
 
 /* ScrollReveal Utilities */
@@ -850,6 +851,25 @@ html.sr .load-hidden {
 }
 
 /* /Contact Me Page */
+
+/* Footer */
+
+.main-footer {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    height: 50px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+/* /Footer */
 
 ::-webkit-scrollbar {
     width: 5px;
