@@ -497,6 +497,15 @@ html.sr .load-hidden {
     filter: blur(20px) brightness(0.5);
 }
 
+@media (hover: none) {
+    .projects-item:hover img {
+        filter: none;
+    }
+    .projects-item:hover .projects-description {
+        opacity: 0;
+    }
+}
+
 /* /Projects Page */
 
 /* Gallery Page */
