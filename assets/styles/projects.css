@@ -40,7 +40,13 @@ body {
     height: 100%;
     opacity: 0;
 }
-.project-container img {
+.project-container .image img {
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+.project-container .dual-image img {
     width: 100%;
     vertical-align: bottom;
     border-radius: 10px;
@@ -65,6 +71,10 @@ body {
 .title a:hover {
     opacity: 1;
     text-decoration: underline;
+}
+.title a img {
+    height: 24px;
+    filter: invert();
 }
 .title h1 {
     margin: 10px 0;
@@ -94,6 +104,10 @@ body {
     align-items: center;
     justify-content: center;
     transition: var(--transition-speed);
+}
+.back-button a img {
+    height: 24px;
+    filter: invert();
 }
 .back-button a:hover {
     opacity: 1;
