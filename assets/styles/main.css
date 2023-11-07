@@ -178,13 +178,13 @@ html.sr .load-hidden {
 }
 
 .content menu a {
-    text-decoration: none;
     color: white;
     transition: var(--transition-speed);
     font-weight: 500;
     display: flex;
     gap: 10px;
     align-items: center;
+    text-decoration: underline rgba(255, 255, 255, 0);
 }
 
 .content menu a img {
@@ -194,7 +194,7 @@ html.sr .load-hidden {
 }
 
 .content menu a:hover {
-    text-decoration: underline;
+    text-decoration: underline rgba(255, 255, 255, 1);
 }
 
 .content .mail-toggle {
@@ -208,7 +208,7 @@ html.sr .load-hidden {
 }
 
 .content .mail-toggle a {
-    text-decoration: none;
+    text-decoration: underline rgba(255, 255, 255, 0);
     color: white;
     display: flex;
     gap: 10px;
@@ -224,7 +224,7 @@ html.sr .load-hidden {
 }
 
 .content .mail-toggle a:hover {
-    text-decoration: underline;
+    text-decoration: underline rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 1200px) {
