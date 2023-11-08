@@ -186,6 +186,7 @@ html.sr .load-hidden {
     gap: 10px;
     align-items: center;
     text-decoration: none;
+    opacity: 0.5;
 }
 
 .content menu a img {
@@ -196,6 +197,7 @@ html.sr .load-hidden {
 
 .content menu a:hover {
     text-decoration: underline;
+    opacity: 1;
 }
 
 .content .mail-toggle {
@@ -216,6 +218,7 @@ html.sr .load-hidden {
     align-items: center;
     transition: var(--transition-speed);
     font-weight: 500;
+    opacity: 0.5;
 }
 
 .content .mail-toggle img {
@@ -226,6 +229,7 @@ html.sr .load-hidden {
 
 .content .mail-toggle a:hover {
     text-decoration: underline;
+    opacity: 1;
 }
 
 @media (max-width: 1200px) {
