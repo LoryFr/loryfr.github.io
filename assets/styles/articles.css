@@ -1,15 +1,9 @@
-body {
-    background-color: black;
-}
-
 .content menu a {
     opacity: 0.5;
 }
 
 .content menu a:hover {
     opacity: 1;
-    color: white;
-    text-decoration: underline;
 }
 
 .content .mail-toggle a {
@@ -20,14 +14,14 @@ body {
     opacity: 1;
 }
 
-.project-container {
+.article-container {
     padding: 110px 100px;
     min-height: 100vh;
     color: white;
     position: relative;
 }
 @media (max-width: 798px) {
-    .project-container {
+    .article-container {
         padding: 110px 30px;
     }
 }
@@ -40,13 +34,13 @@ body {
     height: 100%;
     opacity: 0;
 }
-.project-container .image img {
+.article-container .image img {
     width: 100%;
     vertical-align: bottom;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
-.project-container .dual-image img {
+.article-container .dual-image img {
     width: 100%;
     vertical-align: bottom;
     border-radius: 10px;
