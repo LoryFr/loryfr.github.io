@@ -38,20 +38,20 @@ ScrollReveal().reveal('.gallery-item:first-child', {
 
 /** About */
 
-ScrollReveal().reveal('.content .grid-container .profile-container' , {
+ScrollReveal().reveal('.content .about-container .profile-container' , {
     delay: 50,
 });
-ScrollReveal().reveal('.content .grid-container .profile-container .text' , {
+ScrollReveal().reveal('.content .about-container .profile-container .text' , {
     delay: 200,
     distance: '100px',
 });
-ScrollReveal().reveal('.content .grid-container .tech-container' , {
+ScrollReveal().reveal('.content .about-container .tech-container' , {
     delay: 100,
 });
-ScrollReveal().reveal('.content .grid-container .tech-container .icons-container' , {
+ScrollReveal().reveal('.content .about-container .tech-container .icons-container' , {
     delay: 150,
 });
-ScrollReveal().reveal('.content .grid-container .tech-container .icons-container img' , {
+ScrollReveal().reveal('.content .about-container .tech-container .icons-container img' , {
     delay: 200,
     interval: 100,
     distance: '100px',
@@ -59,29 +59,29 @@ ScrollReveal().reveal('.content .grid-container .tech-container .icons-container
 
 /** Contact */
 
-ScrollReveal().reveal('.content .grid-container .main-container' , {
+ScrollReveal().reveal('.content .contact-container .main-container' , {
     delay: 100,
 });
-ScrollReveal().reveal('.content .grid-container .main-container .text' , {
+ScrollReveal().reveal('.content .contact-container .main-container .text' , {
     delay: 200,
     distance: '100px',
 });
-ScrollReveal().reveal('.content .grid-container .social-container' , {
+ScrollReveal().reveal('.content .contact-container .social-container' , {
     delay: 200,
 });
-ScrollReveal().reveal('.content .grid-container .social-container .flex-container a' , {
+ScrollReveal().reveal('.content .contact-container .social-container .flex-container a' , {
     delay: 250,
     interval: 100,
     distance: '100px',
 });
-ScrollReveal().reveal('.content .grid-container .form-container' , {
+ScrollReveal().reveal('.content .contact-container .form-container' , {
     delay: 300,
 });
-ScrollReveal().reveal('.content .grid-container .form-container form' , {
+ScrollReveal().reveal('.content .contact-container .form-container form' , {
     delay: 400,
     distance: '100px',
 });
-ScrollReveal().reveal('.content .grid-container .image-container' , {
+ScrollReveal().reveal('.content .contact-container .image-container' , {
     delay: 400,
 });
 
