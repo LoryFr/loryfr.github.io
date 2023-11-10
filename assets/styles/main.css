@@ -424,7 +424,7 @@ html.sr .load-hidden {
 
 @media (max-width: 2000px) {
     .projects-grid {
-        column-count: 3;
+        column-count: 2;
     }
 }
 
