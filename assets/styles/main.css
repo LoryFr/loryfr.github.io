@@ -423,19 +423,19 @@ html.sr .load-hidden {
 }
 
 @media (max-width: 2000px) {
-    .projects-container .projects-grid {
+    .projects-grid {
         column-count: 3;
     }
 }
 
 @media (max-width: 1500px) {
-    .projects-container .projects-grid {
+    .projects-grid {
         column-count: 2;
     }
 }
 
 @media (max-width: 1000px) {
-    .projects-container .projects-grid {
+    .projects-grid {
         column-count: 1;
     }
 }
