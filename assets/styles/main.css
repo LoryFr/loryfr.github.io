@@ -232,7 +232,7 @@ html.sr .load-hidden {
     opacity: 1;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .content menu {
         display: none;
     }
