@@ -259,12 +259,10 @@ html.sr .load-hidden {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: black;
-    background-image: url(/assets/img/logo/wallpaper.webp);
+    background: url(/assets/img/logo/wallpaper.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(0.6);
+    filter: brightness(0.5);
 }
 
 .hero-container {
