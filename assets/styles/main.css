@@ -260,7 +260,11 @@ html.sr .load-hidden {
     right: 0;
     bottom: 0;
     background-color: black;
-    opacity: 0.5;
+    background-image: url(/assets/img/logo/wallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.6);
 }
 
 .hero-container {
@@ -270,10 +274,6 @@ html.sr .load-hidden {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/assets/img/logo/wallpaper.webp), linear-gradient(to right bottom, #4158d0, #2c49a5, #1e397b, #172952, #12192c);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     color: #fff;
 }
 
