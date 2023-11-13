@@ -394,7 +394,7 @@ html.sr .load-hidden {
     bottom: 0;
     margin: auto;
     max-height: 100vh;
-    filter: opacity(0.15);
+    opacity: 0.15;
 }
 
 /* /Hero Section Landing Page */
