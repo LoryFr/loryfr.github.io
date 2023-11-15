@@ -22,12 +22,6 @@ body {
     position: relative;
 }
 
-/* ScrollReveal Utilities */
-
-html.sr .load-hidden {
-    visibility: hidden;
-}
-
 /* Navigation Bar */
 
 .navbar {
@@ -420,6 +414,7 @@ html.sr .load-hidden {
 .projects-grid {
     column-count: 4;
     gap: 15px;
+    position: relative;
 }
 
 @media (max-width: 2000px) {
@@ -446,6 +441,7 @@ html.sr .load-hidden {
     width: 100%;
     overflow: hidden;
     margin-bottom: 15px;
+    position: inherit;
 }
 
 .projects-grid .projects-item a {
@@ -846,6 +842,7 @@ html.sr .load-hidden {
 /* Patterns */
 
 .magicpattern {
+    pointer-events: none;
     background-size: cover;
     background-position: center center;
     background-repeat: repeat;
