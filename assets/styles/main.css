@@ -32,7 +32,7 @@ body {
     bottom: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: var(--bg-primary);
     display: grid;
     place-content: center;
 }
@@ -55,8 +55,8 @@ body {
     height: 64px;
     margin: 8px;
     border-radius: 50%;
-    border: 6px solid #fff;
-    border-color: #fff transparent #fff transparent;
+    border: 6px solid var(--ac-primary);
+    border-color: var(--ac-primary) transparent var(--ac-primary) transparent;
     animation: lds-dual-ring 1.2s linear infinite;
 }
 
