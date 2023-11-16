@@ -120,6 +120,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    opacity: 1;
 }
 
 .hero-container {
@@ -172,9 +173,11 @@ body {
     display: inline-block;
     font-size: 1em;
     background-color: var(--bg-primary);
+    background-color: white;
     padding: 10px 30px;
     text-decoration: none;
     color: var(--ac-primary);
+    color: black;
     letter-spacing: 2px;
     transition: var(--transition-speed);
     border-radius: 10px;
