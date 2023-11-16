@@ -40,12 +40,19 @@ function aggiungiEventiToggleNavbar() {
   
       // Ottieni l'URL dal link
       var url = event.target.href;
+
+      // Verifica se il link è un link mailto:
+      if (url.toLowerCase().startsWith('mailto:')) {
+        // Gestisci il link mailto in modo diverso (ad esempio, aprendo un nuovo client di posta elettronica)
+        window.location.href = url;
+      } else {
   
-      // Cambia l'URL senza refreshare la pagina
-      cambiaPagina(url, 'Nuova Pagina');
-  
-      // Carica il contenuto della nuova pagina tramite AJAX
-      caricaContenuto(url);
+        // Cambia l'URL senza refreshare la pagina
+        cambiaPagina(url, 'Nuova Pagina');
+    
+        // Carica il contenuto della nuova pagina tramite AJAX
+        caricaContenuto(url);
+      }
     }
   });
   
