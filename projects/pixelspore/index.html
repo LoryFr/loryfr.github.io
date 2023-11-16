@@ -24,16 +24,22 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-toggle"></div>
-        <div class="nav-menu" translate="no">
+    <header class="navbar">
+        <div class="nav-toggle "></div>
+        <nav class="nav-menu" translate="no">
                 <a href="/./"><img src="/assets/icons/home-outline.svg" alt="home icon">Home</a>
                 <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="projects icon">Projects</a>
                 <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="gallery icon">Gallery</a>
                 <a href="/about"><img src="/assets/icons/award-outline.svg" alt="about icon">About</a>
                 <a href="/contact"><img src="/assets/icons/email-outline.svg" alt="email icon">Contact</a>
-        </div>
-    </nav>
+        </nav>
+        <div class="mail-toggle"><a href="/contact"><img src="/assets/icons/email-outline.svg" alt="email icon">Email Me</a></div>
+        <menu translate="no" class="">
+            <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="briefcase icon">Projects</a>
+            <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="image icon">Gallery</a>
+            <a href="/about"><img src="/assets/icons/award-outline.svg" alt="person icon">About</a>
+        </menu>
+    </header>
     <!-- /Navigation -->
     <!-- Main -->
     <main class="content">
@@ -41,12 +47,6 @@
         <header>
             <a href="/./"><h2 translate="no">Lorenzo <span style="color: var(--ac-primary);">Fiori</span></h2></a>
         </header>
-        <div class="mail-toggle"><a href="/contact"><img src="/assets/icons/email-outline.svg" alt="">Email Me</a></div>
-        <menu translate="no" class="">
-            <a href="/projects"><img src="/assets/icons/briefcase-outline.svg" alt="">Projects</a>
-            <a href="/gallery"><img src="/assets/icons/image-outline.svg" alt="">Gallery</a>
-            <a href="/about"><img src="/assets/icons/award-outline.svg" alt="">About</a>
-        </menu>
         <!-- /Header -->
         <div class="article-cover">
             <div class="filter"></div>
@@ -60,9 +60,6 @@
                 </div>
                 <div class="image">
                     <img src="img/1.webp" alt="">
-                </div>
-                <div class="image">
-                    <img src="img/2.webp" alt="">
                 </div>
             </div>
             <footer class="back-button">
