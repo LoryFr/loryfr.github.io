@@ -336,6 +336,7 @@ body {
 .gallery-grid {
     column-count: 5;
     gap: 15px;
+    position: relative;
 }
 
 @media (max-width: 2000px) {
