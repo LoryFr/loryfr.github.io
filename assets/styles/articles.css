@@ -43,7 +43,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    transition: var(--transition-speed);
+    
 }
 .title a:hover {
     opacity: 1;
@@ -80,7 +80,7 @@
     gap: 10px;
     align-items: center;
     justify-content: center;
-    transition: var(--transition-speed);
+    
 }
 .back-button a img {
     height: 24px;
