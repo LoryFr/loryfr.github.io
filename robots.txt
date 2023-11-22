@@ -5,3 +5,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://lorenzofiori.art/sitemap.xml
+
+Sitemap: https://lorenzofiori.art/projects/sitemap.xml
