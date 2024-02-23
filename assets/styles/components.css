@@ -216,10 +216,8 @@
 /* Gallery */
 
 .gallery {
-    max-width: 798px;
     margin: auto;
-    padding: 24px 0;
-    columns: 4;
+    columns: 400px;
     gap: 24px;
     width: 100%;
 }
@@ -240,13 +238,6 @@
 .gallery .item img {
     width: 100%;
     vertical-align: bottom;
-}
-
-@media (max-width: 798px) {
-    .gallery {
-        padding: 0;
-        columns: 1;
-    }
 }
 
 /* Modal */
