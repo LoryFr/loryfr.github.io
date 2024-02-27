@@ -15,27 +15,3 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
-
-// Modal
-
-function openModal() {
-
-  var modal = document.getElementById("modal");
-  modal.style.display = "block";
-  modal.style.background = "rgba(0, 0, 0, 0)";
-
-  setTimeout(function() {
-    modal.style.background = "rgba(0, 0, 0, 0.4)";}, 100)
-
-  var modalContent = document.getElementById("modal-content");
-  modalContent.style.opacity = "0";
-
-  setTimeout(function() {
-    modalContent.style.opacity = "100";}, 100)
-
-}
-
-function closeModal() {
-  var modal = document.getElementById("modal");
-  modal.style.display = "none";
-}
