@@ -272,3 +272,9 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 798px) {
+    .article .row {
+        flex-direction: column;
+    }
+}
