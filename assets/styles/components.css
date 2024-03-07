@@ -264,9 +264,10 @@
     overflow: hidden;
     background-color: var(--bg-secondary);
     width: 100%;
+    box-shadow: var(--box-shadow);
 }
 
-.article .row:nth-child(+2) .item {
+.article .row:nth-child(2n+2) .item {
     aspect-ratio: 4/5;
 }
 
@@ -280,5 +281,11 @@
 @media (max-width: 798px) {
     .article .row {
         flex-direction: column;
+    }
+    .article .row .item {
+        aspect-ratio: auto;
+    }
+    .article .row:nth-child(2n+2) .item {
+        aspect-ratio: auto;
     }
 }
