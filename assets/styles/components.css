@@ -281,9 +281,50 @@
 }
 
 .article hr {
-    margin: 24px;
     border: var(--border-style);
     border-width: 1px;
+    opacity: 0.75;
+}
+
+.article .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 24px;
+}
+
+.article .text hgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.article .text hgroup h1 {
+    font-size: 36px;
+    font-weight: 700;
+    opacity: 75%;
+}
+
+.article .text hgroup h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.article .text hgroup h3 {
+    font-weight: 700;
+    margin-top: 12px;
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.article .text h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.article .text p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 75%;
 }
 
 @media (max-width: 798px) {
