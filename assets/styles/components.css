@@ -283,14 +283,17 @@
 .article hr {
     border: var(--border-style);
     border-width: 1px;
-    opacity: 0.75;
 }
 
 .article .text {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 48px 24px;
+    padding: 96px 48px;
+    padding: 48px 0px;
+    /* background: var(--bg-secondary);
+    border: var(--border-style);
+    border-radius: 24px; */
 }
 
 .article .text hgroup {
@@ -331,5 +334,8 @@
     .article .bento {
         display: flex;
         flex-direction: column;
+    }
+    .article .text {
+        padding: 48px 24px;
     }
 }
