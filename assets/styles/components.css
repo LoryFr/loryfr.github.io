@@ -365,6 +365,22 @@
     padding: 24px 0px;
 }
 
+.article .back {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--bg-secondary);
+    border: var(--border-style);
+    margin-top: 96px;
+    display: flex;
+    place-content: center;
+}
+
+.article .back img {
+    filter: invert();
+    width: 32px;
+}
+
 @media (max-width: 798px) {
     .article .bento {
         display: flex;
@@ -376,5 +392,9 @@
     .article .text .bar {
         flex-direction: column;
         gap: 32px;
+    }
+    .article .back {
+        margin-left: 24px;
+        margin-top: 48px;
     }
 }
