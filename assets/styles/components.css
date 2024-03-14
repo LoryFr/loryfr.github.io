@@ -376,6 +376,11 @@
     place-content: center;
 }
 
+.article .back:hover {
+    opacity: 0.5;
+    transform: translateX(-8px);
+}
+
 .article .back img {
     filter: invert();
     width: 32px;
