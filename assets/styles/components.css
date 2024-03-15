@@ -270,6 +270,7 @@
 
 .article .text .bar {
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
     justify-content: center;
 }
@@ -375,10 +376,6 @@
     }
     .article .text {
         padding: 48px 24px;
-    }
-    .article .text .bar {
-        flex-direction: column;
-        gap: 32px;
     }
     .article .back {
         margin-left: 24px;
