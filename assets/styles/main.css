@@ -60,3 +60,26 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+body {
+    --line-count: 9;
+    --line-distance: calc(100% / var(--line-count));
+    --line-width: 1px;
+
+    background-image: 
+        linear-gradient(90deg, transparent, transparent var(--line-distance), var(--border-color) var(--line-distance), transparent calc(var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(2 * var(--line-distance)), var(--border-color) calc(2 * var(--line-distance)), transparent calc(2 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(3 * var(--line-distance)), var(--border-color) calc(3 * var(--line-distance)), transparent calc(3 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(4 * var(--line-distance)), var(--border-color) calc(4 * var(--line-distance)), transparent calc(4 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(5 * var(--line-distance)), var(--border-color) calc(5 * var(--line-distance)), transparent calc(5 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(6 * var(--line-distance)), var(--border-color) calc(6 * var(--line-distance)), transparent calc(6 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(7 * var(--line-distance)), var(--border-color) calc(7 * var(--line-distance)), transparent calc(7 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(8 * var(--line-distance)), var(--border-color) calc(8 * var(--line-distance)), transparent calc(8 * var(--line-distance) + var(--line-width))),
+        linear-gradient(90deg, transparent, transparent calc(100% - var(--line-distance)), var(--border-color) calc(100% - var(--line-distance)), transparent calc(100% - var(--line-distance) + var(--line-width)));
+}
+
+@media (max-width: 798px) {
+    body {
+        --line-count: 4;
+    }
+}
