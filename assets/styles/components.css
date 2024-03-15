@@ -359,7 +359,7 @@
 
 .article .item {
     animation: Scale .5s cubic-bezier(0.42, 0, 0.58, 1);
-    animation-delay: .7s;
+    animation-delay: .75s;
     animation-fill-mode: forwards;
     transform: scale(0);
 }
