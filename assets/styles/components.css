@@ -250,16 +250,18 @@
     flex-direction: column;
 }
 
-.article hr {
-    border: var(--border-style);
-    border-width: 1px;
-}
-
 .article .text {
     display: flex;
     flex-direction: column;
     gap: 48px;
     padding: 48px 0px;
+}
+
+.article .text {
+    animation: Scale 1s cubic-bezier(0.42, 0, 0.58, 1);
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    transform: scale(0.1);
 }
 
 .article .text hgroup {
@@ -353,6 +355,13 @@
     border: var(--border-style);
     border-radius: 24px;
     overflow: hidden;
+}
+
+.article .item {
+    animation: Scale .5s cubic-bezier(0.42, 0, 0.58, 1);
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    transform: scale(0);
 }
 
 .article .item img {
