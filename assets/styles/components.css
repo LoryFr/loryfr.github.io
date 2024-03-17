@@ -402,6 +402,11 @@
     opacity: 0.75;
 }
 
+.article .row {
+    display: flex;
+    gap: 24px;
+}
+
 .article .item {
     background: var(--bg-secondary);
     border: var(--border-style);
