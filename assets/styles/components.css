@@ -456,7 +456,7 @@
         flex-direction: column;
     }
     .article .text {
-        padding: 48px 24px;
+        padding: 24px 24px 48px 24px;
     }
     .article .back {
         margin-left: 24px;
