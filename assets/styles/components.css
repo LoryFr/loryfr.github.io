@@ -465,4 +465,7 @@
     .article .text hgroup {
         text-align: center;
     }
+    .article .row {
+        flex-direction: column;
+    }
 }
