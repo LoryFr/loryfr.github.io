@@ -1,4 +1,4 @@
-.navbar {
+.nav-bar {
     position: fixed;
     bottom: 24px;
     left: 0;
@@ -8,7 +8,7 @@
     margin: auto;
 }
 
-.navbar nav {
+.nav-bar nav {
     display: flex;
     gap: 10px;
     padding: 10px;
@@ -20,7 +20,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.navbar nav a {
+.nav-bar nav a {
     width: 48px;
     height: 48px;
     border-radius: 14px;
@@ -31,23 +31,23 @@
     box-shadow: var(--box-shadow);
 }
 
-.navbar nav a:hover {
+.nav-bar nav a:hover {
     transform: translateY(-5px);
 }
 
-.navbar nav a img {
+.nav-bar nav a img {
     width: 24px;
     filter: invert();
 }
 
 @media (min-height: 1080px) {
-    .navbar {
+    .nav-bar {
         bottom: 48px;
     }
 }
 
 @media (hover: none) {
-    .navbar nav a:hover {
+    .nav-bar nav a:hover {
         transform: none;
         opacity: 0.5;
     }
