@@ -222,6 +222,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 24px;
     width: 100%;
+    padding: 24px 0;
 }
 
 .gallery .item {
