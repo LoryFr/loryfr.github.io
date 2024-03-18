@@ -14,10 +14,12 @@
     --layout-width: 798px;
 
     --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+    --global-font-family: 'Outfit';
 }
 
 * {
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--global-font-family), sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
