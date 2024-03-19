@@ -138,7 +138,8 @@
 }
 
 .showcase .item:hover img {
-    opacity: 0.5;
+    scale: 1.5;
+    transition: 0.5s;
 }
 
 .showcase .item picture img {
